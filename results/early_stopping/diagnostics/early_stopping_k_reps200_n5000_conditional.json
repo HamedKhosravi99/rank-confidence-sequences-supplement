@@ -1,0 +1,594 @@
+{
+ "config": {
+  "reps": 200,
+  "n_items": 5000,
+  "every": 25,
+  "alpha": 0.05,
+  "bets": [
+   "mixture"
+  ],
+  "pocock": [
+   "pocock",
+   "pocock_bonf"
+  ],
+  "seed": 20260920,
+  "workers": 4,
+  "settings": [
+   "spread6",
+   "board20"
+  ],
+  "out": "../results/early_stopping/rerun"
+ },
+ "rule": "topk",
+ "settings": {
+  "spread6": {
+   "abilities": [
+    1.0,
+    0.8,
+    0.6,
+    0.3999999999999999,
+    0.19999999999999996,
+    0.0
+   ],
+   "method": "exact",
+   "n_models": 6,
+   "ks": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "procedures": {
+    "ours/mixture": [
+     {
+      "k": 1,
+      "cost_mean": 0.20635416666666664,
+      "cost_se": 0.004969952419132062,
+      "cost_goal_mean": 0.20635416666666664,
+      "cost_nogoal_mean": null,
+      "n_goal": 200,
+      "goal_topk": 1.0,
+      "wrong": 0.0,
+      "items_seen_mean": 2281.125
+     },
+     {
+      "k": 2,
+      "cost_mean": 0.22049166666666664,
+      "cost_se": 0.005189086514809691,
+      "cost_goal_mean": 0.22049166666666664,
+      "cost_nogoal_mean": null,
+      "n_goal": 200,
+      "goal_topk": 1.0,
+      "wrong": 0.0,
+      "items_seen_mean": 2171.375
+     },
+     {
+      "k": 3,
+      "cost_mean": 0.21855416666666666,
+      "cost_se": 0.00506040590240788,
+      "cost_goal_mean": 0.21855416666666666,
+      "cost_nogoal_mean": null,
+      "n_goal": 200,
+      "goal_topk": 1.0,
+      "wrong": 0.0,
+      "items_seen_mean": 2091.0
+     },
+     {
+      "k": 4,
+      "cost_mean": 0.21594999999999998,
+      "cost_se": 0.004552783982105494,
+      "cost_goal_mean": 0.21594999999999998,
+      "cost_nogoal_mean": null,
+      "n_goal": 200,
+      "goal_topk": 1.0,
+      "wrong": 0.0,
+      "items_seen_mean": 2136.5
+     },
+     {
+      "k": 5,
+      "cost_mean": 0.20558333333333334,
+      "cost_se": 0.004466244604925012,
+      "cost_goal_mean": 0.20558333333333334,
+      "cost_nogoal_mean": null,
+      "n_goal": 200,
+      "goal_topk": 1.0,
+      "wrong": 0.0,
+      "items_seen_mean": 2274.125
+     }
+    ],
+    "pocock": [
+     {
+      "k": 1,
+      "cost_mean": 0.19091666666666668,
+      "cost_se": 0.005590229247303662,
+      "cost_goal_mean": 0.18664965986394555,
+      "cost_nogoal_mean": 0.4,
+      "n_goal": 196,
+      "goal_topk": 0.98,
+      "wrong": 0.0,
+      "items_seen_mean": 1787.5
+     },
+     {
+      "k": 2,
+      "cost_mean": 0.19049999999999997,
+      "cost_se": 0.005582373851906155,
+      "cost_goal_mean": 0.1882996632996633,
+      "cost_nogoal_mean": 0.4083333333333333,
+      "n_goal": 198,
+      "goal_topk": 0.99,
+      "wrong": 0.0,
+      "items_seen_mean": 1707.5
+     },
+     {
+      "k": 3,
+      "cost_mean": 0.18950000000000003,
+      "cost_se": 0.005391317440192783,
+      "cost_goal_mean": 0.18264604810996563,
+      "cost_nogoal_mean": 0.41111111111111104,
+      "n_goal": 194,
+      "goal_topk": 0.97,
+      "wrong": 0.0,
+      "items_seen_mean": 1687.5
+     },
+     {
+      "k": 4,
+      "cost_mean": 0.17700000000000002,
+      "cost_se": 0.00479559867074299,
+      "cost_goal_mean": 0.17587939698492464,
+      "cost_nogoal_mean": 0.4,
+      "n_goal": 199,
+      "goal_topk": 0.995,
+      "wrong": 0.0,
+      "items_seen_mean": 1507.5
+     },
+     {
+      "k": 5,
+      "cost_mean": 0.19058333333333333,
+      "cost_se": 0.005308171250178087,
+      "cost_goal_mean": 0.1882154882154882,
+      "cost_nogoal_mean": 0.42500000000000004,
+      "n_goal": 198,
+      "goal_topk": 0.99,
+      "wrong": 0.0,
+      "items_seen_mean": 1777.5
+     }
+    ],
+    "pocock_bonf": [
+     {
+      "k": 1,
+      "cost_mean": 0.30641666666666667,
+      "cost_se": 0.007093415821581808,
+      "cost_goal_mean": 0.27791411042944786,
+      "cost_nogoal_mean": 0.43198198198198196,
+      "n_goal": 163,
+      "goal_topk": 0.815,
+      "wrong": 0.0,
+      "items_seen_mean": 3250.0
+     },
+     {
+      "k": 2,
+      "cost_mean": 0.32625,
+      "cost_se": 0.006988102575826544,
+      "cost_goal_mean": 0.3039447731755424,
+      "cost_nogoal_mean": 0.4478494623655913,
+      "n_goal": 169,
+      "goal_topk": 0.845,
+      "wrong": 0.0,
+      "items_seen_mean": 3277.5
+     },
+     {
+      "k": 3,
+      "cost_mean": 0.30324999999999996,
+      "cost_se": 0.007064844329835002,
+      "cost_goal_mean": 0.28566108007448787,
+      "cost_nogoal_mean": 0.45317460317460323,
+      "n_goal": 179,
+      "goal_topk": 0.895,
+      "wrong": 0.0,
+      "items_seen_mean": 2940.0
+     },
+     {
+      "k": 4,
+      "cost_mean": 0.31283333333333335,
+      "cost_se": 0.006850185535884915,
+      "cost_goal_mean": 0.29267822736030824,
+      "cost_nogoal_mean": 0.4419753086419753,
+      "n_goal": 173,
+      "goal_topk": 0.865,
+      "wrong": 0.0,
+      "items_seen_mean": 3130.0
+     },
+     {
+      "k": 5,
+      "cost_mean": 0.30325,
+      "cost_se": 0.005959918116308213,
+      "cost_goal_mean": 0.2862689393939394,
+      "cost_nogoal_mean": 0.42777777777777776,
+      "n_goal": 176,
+      "goal_topk": 0.88,
+      "wrong": 0.0,
+      "items_seen_mean": 3215.0
+     }
+    ]
+   }
+  },
+  "board20": {
+   "abilities": [
+    1.5,
+    1.3947368421052633,
+    1.2894736842105263,
+    1.1842105263157894,
+    1.0789473684210527,
+    0.9736842105263158,
+    0.868421052631579,
+    0.7631578947368421,
+    0.6578947368421053,
+    0.5526315789473685,
+    0.44736842105263164,
+    0.3421052631578947,
+    0.23684210526315796,
+    0.13157894736842124,
+    0.026315789473684292,
+    -0.07894736842105265,
+    -0.18421052631578938,
+    -0.2894736842105261,
+    -0.39473684210526305,
+    -0.5
+   ],
+   "method": "shortcut",
+   "n_models": 20,
+   "ks": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    7,
+    10,
+    13,
+    16,
+    19
+   ],
+   "procedures": {
+    "ours/mixture": [
+     {
+      "k": 1,
+      "cost_mean": 0.17590375000000003,
+      "cost_se": 0.002121272726949081,
+      "cost_goal_mean": 0.1753282051282051,
+      "cost_nogoal_mean": 0.19835,
+      "n_goal": 195,
+      "goal_topk": 0.975,
+      "wrong": 0.0,
+      "items_seen_mean": 4186.25
+     },
+     {
+      "k": 2,
+      "cost_mean": 0.2055525,
+      "cost_se": 0.0019254711212959605,
+      "cost_goal_mean": 0.20544823232323237,
+      "cost_nogoal_mean": 0.21587499999999998,
+      "n_goal": 198,
+      "goal_topk": 0.99,
+      "wrong": 0.0,
+      "items_seen_mean": 4214.5
+     },
+     {
+      "k": 3,
+      "cost_mean": 0.22030125,
+      "cost_se": 0.0019639970024968425,
+      "cost_goal_mean": 0.2199520202020202,
+      "cost_nogoal_mean": 0.25487499999999996,
+      "n_goal": 198,
+      "goal_topk": 0.99,
+      "wrong": 0.0,
+      "items_seen_mean": 4202.75
+     },
+     {
+      "k": 4,
+      "cost_mean": 0.22264375,
+      "cost_se": 0.002078407655901036,
+      "cost_goal_mean": 0.22240025252525247,
+      "cost_nogoal_mean": 0.24674999999999997,
+      "n_goal": 198,
+      "goal_topk": 0.99,
+      "wrong": 0.0,
+      "items_seen_mean": 4057.125
+     },
+     {
+      "k": 5,
+      "cost_mean": 0.23085999999999998,
+      "cost_se": 0.002128011935820609,
+      "cost_goal_mean": 0.2308140703517588,
+      "cost_nogoal_mean": 0.24,
+      "n_goal": 199,
+      "goal_topk": 0.995,
+      "wrong": 0.0,
+      "items_seen_mean": 4157.125
+     },
+     {
+      "k": 7,
+      "cost_mean": 0.23539374999999998,
+      "cost_se": 0.002192809197827729,
+      "cost_goal_mean": 0.23482233502538075,
+      "cost_nogoal_mean": 0.27291666666666664,
+      "n_goal": 197,
+      "goal_topk": 0.985,
+      "wrong": 0.0,
+      "items_seen_mean": 4139.375
+     },
+     {
+      "k": 10,
+      "cost_mean": 0.22901375000000002,
+      "cost_se": 0.0023013556999027496,
+      "cost_goal_mean": 0.22888190954773868,
+      "cost_nogoal_mean": 0.25525,
+      "n_goal": 199,
+      "goal_topk": 0.995,
+      "wrong": 0.0,
+      "items_seen_mean": 3985.75
+     },
+     {
+      "k": 13,
+      "cost_mean": 0.2231775,
+      "cost_se": 0.002362432093358165,
+      "cost_goal_mean": 0.22270812182741112,
+      "cost_nogoal_mean": 0.254,
+      "n_goal": 197,
+      "goal_topk": 0.985,
+      "wrong": 0.0,
+      "items_seen_mean": 3954.25
+     },
+     {
+      "k": 16,
+      "cost_mean": 0.21186749999999996,
+      "cost_se": 0.002042147688010894,
+      "cost_goal_mean": 0.21137182741116753,
+      "cost_nogoal_mean": 0.24441666666666664,
+      "n_goal": 197,
+      "goal_topk": 0.985,
+      "wrong": 0.0,
+      "items_seen_mean": 4016.125
+     },
+     {
+      "k": 19,
+      "cost_mean": 0.15967125,
+      "cost_se": 0.0020033950279155837,
+      "cost_goal_mean": 0.1594459798994975,
+      "cost_nogoal_mean": 0.2045,
+      "n_goal": 199,
+      "goal_topk": 0.995,
+      "wrong": 0.0,
+      "items_seen_mean": 3991.75
+     }
+    ],
+    "pocock": [
+     {
+      "k": 1,
+      "cost_mean": 0.18405000000000002,
+      "cost_se": 0.002773571885678308,
+      "cost_goal_mean": 0.15891891891891896,
+      "cost_nogoal_mean": 0.2153932584269663,
+      "n_goal": 111,
+      "goal_topk": 0.555,
+      "wrong": 0.03,
+      "items_seen_mean": 3750.0
+     },
+     {
+      "k": 2,
+      "cost_mean": 0.20082500000000003,
+      "cost_se": 0.0028739816855093588,
+      "cost_goal_mean": 0.17689189189189186,
+      "cost_nogoal_mean": 0.2306741573033708,
+      "n_goal": 111,
+      "goal_topk": 0.555,
+      "wrong": 0.03,
+      "items_seen_mean": 3905.0
+     },
+     {
+      "k": 3,
+      "cost_mean": 0.20149999999999998,
+      "cost_se": 0.0028397306829625224,
+      "cost_goal_mean": 0.1773478260869565,
+      "cost_nogoal_mean": 0.23417647058823526,
+      "n_goal": 115,
+      "goal_topk": 0.575,
+      "wrong": 0.03,
+      "items_seen_mean": 3832.5
+     },
+     {
+      "k": 4,
+      "cost_mean": 0.1938,
+      "cost_se": 0.0028481767067307846,
+      "cost_goal_mean": 0.17672932330827068,
+      "cost_nogoal_mean": 0.2276865671641791,
+      "n_goal": 133,
+      "goal_topk": 0.665,
+      "wrong": 0.03,
+      "items_seen_mean": 3567.5
+     },
+     {
+      "k": 5,
+      "cost_mean": 0.19699999999999998,
+      "cost_se": 0.0029369419709458877,
+      "cost_goal_mean": 0.17107142857142857,
+      "cost_nogoal_mean": 0.23,
+      "n_goal": 112,
+      "goal_topk": 0.56,
+      "wrong": 0.03,
+      "items_seen_mean": 3725.0
+     },
+     {
+      "k": 7,
+      "cost_mean": 0.19800000000000004,
+      "cost_se": 0.0028299812666958144,
+      "cost_goal_mean": 0.1731531531531532,
+      "cost_nogoal_mean": 0.2289887640449438,
+      "n_goal": 111,
+      "goal_topk": 0.555,
+      "wrong": 0.03,
+      "items_seen_mean": 3795.0
+     },
+     {
+      "k": 10,
+      "cost_mean": 0.18607500000000002,
+      "cost_se": 0.0029178185688978372,
+      "cost_goal_mean": 0.16775735294117644,
+      "cost_nogoal_mean": 0.22500000000000003,
+      "n_goal": 136,
+      "goal_topk": 0.68,
+      "wrong": 0.035,
+      "items_seen_mean": 3390.0
+     },
+     {
+      "k": 13,
+      "cost_mean": 0.18862500000000001,
+      "cost_se": 0.0030066796449633912,
+      "cost_goal_mean": 0.1687037037037037,
+      "cost_nogoal_mean": 0.23,
+      "n_goal": 135,
+      "goal_topk": 0.675,
+      "wrong": 0.03,
+      "items_seen_mean": 3477.5
+     },
+     {
+      "k": 16,
+      "cost_mean": 0.193275,
+      "cost_se": 0.002760452383543148,
+      "cost_goal_mean": 0.17293650793650792,
+      "cost_nogoal_mean": 0.22790540540540544,
+      "n_goal": 126,
+      "goal_topk": 0.63,
+      "wrong": 0.035,
+      "items_seen_mean": 3657.5
+     },
+     {
+      "k": 19,
+      "cost_mean": 0.17369999999999997,
+      "cost_se": 0.0025332561920724415,
+      "cost_goal_mean": 0.15599206349206354,
+      "cost_nogoal_mean": 0.20385135135135135,
+      "n_goal": 126,
+      "goal_topk": 0.63,
+      "wrong": 0.03,
+      "items_seen_mean": 3555.0
+     }
+    ],
+    "pocock_bonf": [
+     {
+      "k": 1,
+      "cost_mean": 0.26225000000000004,
+      "cost_se": 0.0017453275743276797,
+      "cost_goal_mean": 0.21499999999999997,
+      "cost_nogoal_mean": 0.26371134020618553,
+      "n_goal": 6,
+      "goal_topk": 0.03,
+      "wrong": 0.0,
+      "items_seen_mean": 4972.5
+     },
+     {
+      "k": 2,
+      "cost_mean": 0.30012500000000003,
+      "cost_se": 0.0017036900168067059,
+      "cost_goal_mean": 0.24125,
+      "cost_nogoal_mean": 0.3013265306122449,
+      "n_goal": 4,
+      "goal_topk": 0.02,
+      "wrong": 0.0,
+      "items_seen_mean": 4987.5
+     },
+     {
+      "k": 3,
+      "cost_mean": 0.317525,
+      "cost_se": 0.0018597149170946395,
+      "cost_goal_mean": 0.255,
+      "cost_nogoal_mean": 0.3184771573604061,
+      "n_goal": 3,
+      "goal_topk": 0.015,
+      "wrong": 0.0,
+      "items_seen_mean": 4985.0
+     },
+     {
+      "k": 4,
+      "cost_mean": 0.32015,
+      "cost_se": 0.0020002857836020336,
+      "cost_goal_mean": 0.25375000000000003,
+      "cost_nogoal_mean": 0.3229166666666667,
+      "n_goal": 8,
+      "goal_topk": 0.04,
+      "wrong": 0.0,
+      "items_seen_mean": 4947.5
+     },
+     {
+      "k": 5,
+      "cost_mean": 0.32432500000000003,
+      "cost_se": 0.0020092992040652595,
+      "cost_goal_mean": 0.28125,
+      "cost_nogoal_mean": 0.325204081632653,
+      "n_goal": 4,
+      "goal_topk": 0.02,
+      "wrong": 0.0,
+      "items_seen_mean": 4982.5
+     },
+     {
+      "k": 7,
+      "cost_mean": 0.324075,
+      "cost_se": 0.0019965666195575988,
+      "cost_goal_mean": 0.28300000000000003,
+      "cost_nogoal_mean": 0.32512820512820506,
+      "n_goal": 5,
+      "goal_topk": 0.025,
+      "wrong": 0.0,
+      "items_seen_mean": 4982.5
+     },
+     {
+      "k": 10,
+      "cost_mean": 0.312225,
+      "cost_se": 0.002201443536231643,
+      "cost_goal_mean": 0.25549999999999995,
+      "cost_nogoal_mean": 0.3152105263157895,
+      "n_goal": 10,
+      "goal_topk": 0.05,
+      "wrong": 0.0,
+      "items_seen_mean": 4940.0
+     },
+     {
+      "k": 13,
+      "cost_mean": 0.30815,
+      "cost_se": 0.002209023864099436,
+      "cost_goal_mean": 0.2503571428571429,
+      "cost_nogoal_mean": 0.3125,
+      "n_goal": 14,
+      "goal_topk": 0.07,
+      "wrong": 0.0,
+      "items_seen_mean": 4927.5
+     },
+     {
+      "k": 16,
+      "cost_mean": 0.30474999999999997,
+      "cost_se": 0.0017232339295288372,
+      "cost_goal_mean": 0.2677777777777778,
+      "cost_nogoal_mean": 0.3064921465968587,
+      "n_goal": 9,
+      "goal_topk": 0.045,
+      "wrong": 0.0,
+      "items_seen_mean": 4967.5
+     },
+     {
+      "k": 19,
+      "cost_mean": 0.24582500000000004,
+      "cost_se": 0.001724337138682339,
+      "cost_goal_mean": 0.19,
+      "cost_nogoal_mean": 0.24815104166666668,
+      "n_goal": 8,
+      "goal_topk": 0.04,
+      "wrong": 0.0,
+      "items_seen_mean": 4940.0
+     }
+    ]
+   }
+  }
+ },
+ "seconds": 700.0416040420532
+}

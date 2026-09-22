@@ -1,0 +1,28 @@
+# LaTeX build intermediates
+*.aux
+*.log
+*.out
+*.blg
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.toc
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+
+# Data, model outputs, and run directories stay outside Git
+data/raw/
+data/processed/*
+!data/processed/manifest.json
+runs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# LaTeX bibliography intermediate (rebuilt by bibtex)
+*.bbl

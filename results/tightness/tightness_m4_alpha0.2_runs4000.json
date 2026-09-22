@@ -1,0 +1,26 @@
+{
+ "config": {
+  "runs": 4000,
+  "n": 400,
+  "models": 4,
+  "alpha": 0.2,
+  "lam": 0.5,
+  "accuracy": 0.5,
+  "seed": 2026,
+  "workers": 1,
+  "out": "..\\results\\tightness"
+ },
+ "true_order_rejected": {
+  "rate": 0.1835,
+  "se": 0.0061202073085803235
+ },
+ "true_order_rejected_recomputed": {
+  "rate": 0.1835,
+  "se": 0.0061202073085803235
+ },
+ "report_ever_wrong": {
+  "rate": 0.1805,
+  "se": 0.006081113179344715
+ },
+ "seconds": 493.4845907688141
+}

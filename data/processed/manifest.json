@@ -1,0 +1,48 @@
+{
+ "source_sha256": "34f44d6a819512ef74d00a95288d252fa679288a10ca167cd97fdbc3aae66437",
+ "n_models": 395,
+ "scenarios": {
+  "mmlu": {
+   "items": 14042,
+   "blocks": 57,
+   "binary": true,
+   "accuracy_min": 0.27553054690361023,
+   "accuracy_max": 0.7857854962348938
+  },
+  "hellaswag": {
+   "items": 10042,
+   "blocks": 1,
+   "binary": true,
+   "accuracy_min": 0.31836286187171936,
+   "accuracy_max": 0.9011152982711792
+  },
+  "arc": {
+   "items": 1172,
+   "blocks": 1,
+   "binary": true,
+   "accuracy_min": 0.2645051181316376,
+   "accuracy_max": 0.7337883710861206
+  },
+  "winogrande": {
+   "items": 1267,
+   "blocks": 1,
+   "binary": true,
+   "accuracy_min": 0.5887924432754517,
+   "accuracy_max": 0.866614043712616
+  },
+  "gsm8k": {
+   "items": 1319,
+   "blocks": 1,
+   "binary": true,
+   "accuracy_min": 0.0,
+   "accuracy_max": 0.7680060863494873
+  },
+  "truthfulqa": {
+   "items": 817,
+   "blocks": 1,
+   "binary": false,
+   "accuracy_min": 0.30898696184158325,
+   "accuracy_max": 0.7252131700515747
+  }
+ }
+}

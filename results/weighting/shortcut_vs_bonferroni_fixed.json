@@ -1,0 +1,16 @@
+{
+ "config": {
+  "runs_per_scenario": 150,
+  "n_max": 4000,
+  "every": 20,
+  "alpha": 0.05,
+  "seed": 99,
+  "workers": 1,
+  "out": "..\\results\\weighting"
+ },
+ "runs": 600,
+ "runs_with_a_difference": 27,
+ "looks": 120000,
+ "looks_with_a_difference": 40,
+ "looks_where_shortcut_is_behind": 0
+}
