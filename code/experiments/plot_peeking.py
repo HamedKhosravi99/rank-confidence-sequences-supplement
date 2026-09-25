@@ -1,10 +1,12 @@
 """Figure for E1: probability that some report is wrong, against the number of looks.
 
 Small multiples (one panel per scenario, one shared y-axis). Identity is never carried by colour
-alone: fixed-sample procedures are dashed with open markers, ours is solid with filled markers,
-each series has its own marker, and the two groups are labelled on the plot. The shortcut and
-e-Bonferroni are not drawn: at every look they are within 0.2 points of ours and would hide under
-it (Appendix E.1 gives their rates). Colours are slots 1, 4 and 5 of the validated default palette
+alone: fixed-sample procedures are dashed with open markers, e-process procedures are solid with
+filled markers, each series has its own marker, and the two groups are labelled on the plot. The y-axis is
+symmetric-log (linear below 0.001), so the e-process rates, all below 2%, do not lie on the axis.
+e-Bonferroni coincides with the shortcut almost everywhere, so it is drawn as a wider translucent
+line beneath it, and ours (exact) is drawn on top.
+Colours are the first five categorical slots of the validated default palette
 (validate_palette.js, light mode, white surface: all checks pass).
 
 Usage:  python -m experiments.plot_peeking ../results/peeking/peeking_mixture_reps5000_n2000.json
@@ -17,13 +19,18 @@ import json
 from pathlib import Path
 
 import matplotlib
+import matplotlib.ticker
 
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt  # noqa: E402
 
 INK, MUTED, GRID = "#0b0b0b", "#52514e", "#e6e5e1"
+Z = {"ours_exact": 6, "ours_shortcut": 5, "e_bonferroni": 4, "holm_mcnemar": 3, "holm_ztest": 3}
+STYLE = {"e_bonferroni": dict(linewidth=3.2, markersize=6.4, alpha=0.55)}
 SERIES = {  # name: (label, colour, marker, fixed-sample?)
-    "ours_exact": ("Ours (exact certifier)", "#2a78d6", "o", False),
+    "ours_exact": ("Ours, exact", "#2a78d6", "o", False),
+    "ours_shortcut": ("Ours, shortcut", "#eb6834", "s", False),
+    "e_bonferroni": ("e-Bonferroni", "#1baf7a", "^", False),
     "holm_mcnemar": ("Fixed-sample Holm, exact McNemar", "#eda100", "D", True),
     "holm_ztest": ("Fixed-sample Holm, $z$-test", "#e87ba4", "v", True),
 }
@@ -55,13 +62,15 @@ def main() -> None:
             x = [r["looks"] for r in rows]
             y = [r[args.metric] for r in rows]
             se = [r[args.metric + "_se"] for r in rows]
-            ax.fill_between(x, [a - 2 * b for a, b in zip(y, se)], [a + 2 * b for a, b in zip(y, se)],
-                            color=colour, alpha=0.15, linewidth=0)
-            ax.plot(x, y, color=colour, linewidth=1.5, linestyle="--" if fixed else "-",
-                    marker=marker, markersize=4.2, markerfacecolor="white" if fixed else colour,
-                    markeredgewidth=1.0, label=label, clip_on=False, zorder=3)
+            ax.fill_between(x, [max(a - 2 * b, 0) for a, b in zip(y, se)], [a + 2 * b for a, b in zip(y, se)],
+                            color=colour, alpha=0.12, linewidth=0, zorder=1)
+            st = dict(linewidth=1.5, markersize=4.2, alpha=1.0); st.update(STYLE.get(key, {}))
+            ax.plot(x, y, color=colour, linestyle="--" if fixed else "-",
+                    marker=marker, markerfacecolor="white" if fixed else colour,
+                    markeredgewidth=1.0, label=label, clip_on=False, zorder=Z[key], **st)
         ax.axhline(alpha, color=INK, linewidth=0.8, linestyle=":", zorder=1)
         ax.set_xscale("log")
+        ax.set_yscale("symlog", linthresh=1e-3, linscale=0.35)   # spreads out rates near zero
         ax.set_xticks([1, 5, 20, 100])          # a readable subset; the axis is logarithmic
         ax.set_xticklabels(["1", "5", "20", "100"])
         ax.minorticks_off()
@@ -74,18 +83,21 @@ def main() -> None:
         for side in ("top", "right"):
             ax.spines[side].set_visible(False)
     axes[0].set_ylabel("P(some report is wrong)", color=MUTED)
-    axes[0].set_ylim(-0.025, 0.65)  # headroom for the key; our line sits just above the axis
+    axes[0].set_ylim(0, 1.0)  # headroom for the key above the highest series
+    axes[0].set_yticks([0, 0.001, 0.01, 0.05, 0.1, 0.5])
+    axes[0].set_yticklabels(["0", "0.001", "0.01", "0.05", "0.1", "0.5"])
+    axes[0].yaxis.set_minor_locator(matplotlib.ticker.NullLocator())
     axes[1].text(0.04, 0.97, f"nominal level $\\alpha$ = {alpha:g}",
                  transform=axes[1].transAxes, fontsize=7.5, color=INK, va="top", ha="left")
     # direct group labels in ink (text never wears the series colour), placed clear of the marks
-    axes[0].text(0.04, 0.97, "dashed, open: fixed-sample\nsolid, filled: ours",
-                 transform=axes[0].transAxes, fontsize=7.5, color=INK, va="top", linespacing=1.3)
-    fig.text(0.5, 0.115, "number of looks at the leaderboard (log scale)", ha="center",
+    axes[2].text(0.04, 0.97, "dashed, open: fixed-sample\nsolid, filled: e-process",
+                 transform=axes[2].transAxes, fontsize=7.5, color=INK, va="top", linespacing=1.3)
+    fig.text(0.5, 0.16, "number of looks at the leaderboard (both axes on a log scale)", ha="center",
              fontsize=8.5, color=MUTED)
     handles, labels = axes[0].get_legend_handles_labels()
     fig.legend(handles, labels, loc="lower center", ncol=3, frameon=False, fontsize=7.5,
                handlelength=2.6, columnspacing=1.4, bbox_to_anchor=(0.5, -0.01))
-    fig.tight_layout(rect=(0, 0.145, 1, 1))
+    fig.tight_layout(rect=(0, 0.20, 1, 1))
     args.out.parent.mkdir(parents=True, exist_ok=True)
     fig.savefig(args.out)
     fig.savefig(args.out.with_suffix(".png"), dpi=200)
