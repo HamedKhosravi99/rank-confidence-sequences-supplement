@@ -1,9 +1,10 @@
 """Figure for E1: probability that some report is wrong, against the number of looks.
 
 Small multiples (one panel per scenario, one shared y-axis). Identity is never carried by colour
-alone: fixed-sample procedures are dashed with open markers, e-process procedures are solid with
-filled markers, each series has its own marker, and the two groups are labelled on the plot.
-Colours are the first five categorical slots of the validated default palette
+alone: fixed-sample procedures are dashed with open markers, ours is solid with filled markers,
+each series has its own marker, and the two groups are labelled on the plot. The shortcut and
+e-Bonferroni are not drawn: at every look they are within 0.2 points of ours and would hide under
+it (Appendix E.1 gives their rates). Colours are slots 1, 4 and 5 of the validated default palette
 (validate_palette.js, light mode, white surface: all checks pass).
 
 Usage:  python -m experiments.plot_peeking ../results/peeking/peeking_mixture_reps5000_n2000.json
@@ -22,9 +23,7 @@ import matplotlib.pyplot as plt  # noqa: E402
 
 INK, MUTED, GRID = "#0b0b0b", "#52514e", "#e6e5e1"
 SERIES = {  # name: (label, colour, marker, fixed-sample?)
-    "ours_exact": ("Ours, exact", "#2a78d6", "o", False),
-    "ours_shortcut": ("Ours, shortcut", "#eb6834", "s", False),
-    "e_bonferroni": ("e-Bonferroni", "#1baf7a", "^", False),
+    "ours_exact": ("Ours (exact certifier)", "#2a78d6", "o", False),
     "holm_mcnemar": ("Fixed-sample Holm, exact McNemar", "#eda100", "D", True),
     "holm_ztest": ("Fixed-sample Holm, $z$-test", "#e87ba4", "v", True),
 }
@@ -75,18 +74,18 @@ def main() -> None:
         for side in ("top", "right"):
             ax.spines[side].set_visible(False)
     axes[0].set_ylabel("P(some report is wrong)", color=MUTED)
-    axes[0].set_ylim(0, 0.65)  # headroom for the key above the highest series
+    axes[0].set_ylim(-0.025, 0.65)  # headroom for the key; our line sits just above the axis
     axes[1].text(0.04, 0.97, f"nominal level $\\alpha$ = {alpha:g}",
                  transform=axes[1].transAxes, fontsize=7.5, color=INK, va="top", ha="left")
     # direct group labels in ink (text never wears the series colour), placed clear of the marks
-    axes[0].text(0.04, 0.97, "dashed, open: fixed-sample\nsolid, filled: e-process",
+    axes[0].text(0.04, 0.97, "dashed, open: fixed-sample\nsolid, filled: ours",
                  transform=axes[0].transAxes, fontsize=7.5, color=INK, va="top", linespacing=1.3)
-    fig.text(0.5, 0.16, "number of looks at the leaderboard (log scale)", ha="center",
+    fig.text(0.5, 0.115, "number of looks at the leaderboard (log scale)", ha="center",
              fontsize=8.5, color=MUTED)
     handles, labels = axes[0].get_legend_handles_labels()
     fig.legend(handles, labels, loc="lower center", ncol=3, frameon=False, fontsize=7.5,
                handlelength=2.6, columnspacing=1.4, bbox_to_anchor=(0.5, -0.01))
-    fig.tight_layout(rect=(0, 0.20, 1, 1))
+    fig.tight_layout(rect=(0, 0.145, 1, 1))
     args.out.parent.mkdir(parents=True, exist_ok=True)
     fig.savefig(args.out)
     fig.savefig(args.out.with_suffix(".png"), dpi=200)
