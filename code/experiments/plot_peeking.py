@@ -2,8 +2,9 @@
 
 Small multiples (one panel per scenario, one shared y-axis). Identity is never carried by colour
 alone: fixed-sample procedures are dashed with open markers, e-process procedures are solid with
-filled markers, each series has its own marker, and the two groups are labelled on the plot. The y-axis is
-symmetric-log (linear below 0.001), so the e-process rates, all below 2%, do not lie on the axis.
+filled markers, each series has its own marker, and the two groups are labelled on the plot. Both axes are
+logarithmic, so the e-process rates, all below 2%, do not lie on the x-axis. A rate of zero (no
+wrong report in any run) cannot sit on a log axis and is drawn at the bottom edge, labelled 0.
 e-Bonferroni coincides with the shortcut almost everywhere, so it is drawn as a wider translucent
 line beneath it, and ours (exact) is drawn on top.
 Colours are the first five categorical slots of the validated default palette
@@ -25,6 +26,7 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt  # noqa: E402
 
 INK, MUTED, GRID = "#0b0b0b", "#52514e", "#e6e5e1"
+FLOOR = 1e-4  # bottom edge of the log axis; rates of zero are drawn here
 Z = {"ours_exact": 6, "ours_shortcut": 5, "e_bonferroni": 4, "holm_mcnemar": 3, "holm_ztest": 3}
 STYLE = {"e_bonferroni": dict(linewidth=3.2, markersize=6.4, alpha=0.55)}
 SERIES = {  # name: (label, colour, marker, fixed-sample?)
@@ -62,7 +64,8 @@ def main() -> None:
             x = [r["looks"] for r in rows]
             y = [r[args.metric] for r in rows]
             se = [r[args.metric + "_se"] for r in rows]
-            ax.fill_between(x, [max(a - 2 * b, 0) for a, b in zip(y, se)], [a + 2 * b for a, b in zip(y, se)],
+            y = [max(v, FLOOR) for v in y]
+            ax.fill_between(x, [max(a - 2 * b, FLOOR) for a, b in zip(y, se)], [a + 2 * b for a, b in zip(y, se)],
                             color=colour, alpha=0.12, linewidth=0, zorder=1)
             st = dict(linewidth=1.5, markersize=4.2, alpha=1.0); st.update(STYLE.get(key, {}))
             ax.plot(x, y, color=colour, linestyle="--" if fixed else "-",
@@ -70,7 +73,7 @@ def main() -> None:
                     markeredgewidth=1.0, label=label, clip_on=False, zorder=Z[key], **st)
         ax.axhline(alpha, color=INK, linewidth=0.8, linestyle=":", zorder=1)
         ax.set_xscale("log")
-        ax.set_yscale("symlog", linthresh=1e-3, linscale=0.35)   # spreads out rates near zero
+        ax.set_yscale("log")
         ax.set_xticks([1, 5, 20, 100])          # a readable subset; the axis is logarithmic
         ax.set_xticklabels(["1", "5", "20", "100"])
         ax.minorticks_off()
@@ -82,17 +85,17 @@ def main() -> None:
         ax.tick_params(axis="x", labelsize=7.5)
         for side in ("top", "right"):
             ax.spines[side].set_visible(False)
-    axes[0].set_ylabel("P(some report is wrong)", color=MUTED)
-    axes[0].set_ylim(0, 1.0)  # headroom for the key above the highest series
-    axes[0].set_yticks([0, 0.001, 0.01, 0.05, 0.1, 0.5])
-    axes[0].set_yticklabels(["0", "0.001", "0.01", "0.05", "0.1", "0.5"])
+    axes[0].set_ylabel("P(some report is wrong)\n(log scale)", color=MUTED)
+    axes[0].set_ylim(FLOOR, 1.0)  # headroom for the key above the highest series
+    axes[0].set_yticks([FLOOR, 0.001, 0.01, 0.1, 1])
+    axes[0].set_yticklabels(["0", "0.001", "0.01", "0.1", "1"])
     axes[0].yaxis.set_minor_locator(matplotlib.ticker.NullLocator())
     axes[1].text(0.04, 0.97, f"nominal level $\\alpha$ = {alpha:g}",
                  transform=axes[1].transAxes, fontsize=7.5, color=INK, va="top", ha="left")
     # direct group labels in ink (text never wears the series colour), placed clear of the marks
     axes[2].text(0.04, 0.97, "dashed, open: fixed-sample\nsolid, filled: e-process",
                  transform=axes[2].transAxes, fontsize=7.5, color=INK, va="top", linespacing=1.3)
-    fig.text(0.5, 0.16, "number of looks at the leaderboard (both axes on a log scale)", ha="center",
+    fig.text(0.5, 0.16, "number of looks at the leaderboard (log scale)", ha="center",
              fontsize=8.5, color=MUTED)
     handles, labels = axes[0].get_legend_handles_labels()
     fig.legend(handles, labels, loc="lower center", ncol=3, frameon=False, fontsize=7.5,
