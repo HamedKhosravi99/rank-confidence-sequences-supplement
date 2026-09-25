@@ -14,7 +14,7 @@ X_tj = 1{Z_tj <= Phi^{-1}(theta_j)}, so P(X_tj = 1) = theta_j for every rho and 
 
 Recorded per configuration and regime: the anytime family-wise false-statement rate (some false
 dominance certified at any look, or no weak order surviving); at fractions 0.10, 0.25, 0.50,
-0.75, 1.00 the fraction of true dominances certified, the mean rank-interval width, the number of
+0.75, 1.00 the fraction of true dominances certified, the mean rank-interval width (U - L + 1), the number of
 certified tiers and the fraction of models with resolved top-3 status; the first certification
 look of every true pair; the empirical within-item correlation matrix and Var(X_j - X_l); and,
 for the power configurations, the cost of certifying every model's top-3 status under the

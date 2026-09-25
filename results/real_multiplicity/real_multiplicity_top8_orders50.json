@@ -1,0 +1,409 @@
+{
+ "config": {
+  "orders": 50,
+  "benchmarks": [
+   "mmlu",
+   "hellaswag",
+   "arc",
+   "gsm8k",
+   "winogrande",
+   "truthfulqa"
+  ],
+  "subsets": [
+   "top8"
+  ],
+  "alpha": 0.05,
+  "every_frac": 0.01,
+  "bet": "mixture",
+  "seed": 20260921,
+  "workers": 8,
+  "out": "../results/real_multiplicity"
+ },
+ "results": {
+  "mmlu/top8": {
+   "n_items": 14042,
+   "n_models": 8,
+   "true_pairs": 28,
+   "looks": 106,
+   "orders": 50,
+   "certifiers": {
+    "e_bonferroni": {
+     "true_certified": {
+      "0.05": 12.0,
+      "0.1": 12.0,
+      "0.25": 12.08,
+      "0.5": 12.76,
+      "0.75": 15.28,
+      "1.0": 28.0
+     },
+     "ever_wrong": 0.0
+    },
+    "shortcut": {
+     "true_certified": {
+      "0.05": 12.0,
+      "0.1": 12.0,
+      "0.25": 12.08,
+      "0.5": 12.76,
+      "0.75": 15.28,
+      "1.0": 28.0
+     },
+     "ever_wrong": 0.0
+    },
+    "exact": {
+     "true_certified": {
+      "0.05": 12.0,
+      "0.1": 12.0,
+      "0.25": 12.12,
+      "0.5": 12.9,
+      "0.75": 15.46,
+      "1.0": 28.0
+     },
+     "ever_wrong": 0.0
+    },
+    "exact_adjacent": {
+     "true_certified": {
+      "0.05": 12.0,
+      "0.1": 12.0,
+      "0.25": 12.0,
+      "0.5": 12.0,
+      "0.75": 12.42,
+      "1.0": 28.0
+     },
+     "ever_wrong": 0.0
+    }
+   },
+   "per_look": {
+    "shortcut>e_bonferroni": 6,
+    "shortcut<e_bonferroni": 0,
+    "exact>shortcut": 572,
+    "exact<shortcut": 0,
+    "exact>e_bonferroni": 578,
+    "exact<e_bonferroni": 0,
+    "exact_adjacent>e_bonferroni": 83,
+    "exact_adjacent<e_bonferroni": 2225,
+    "looks_total": 5300
+   }
+  },
+  "hellaswag/top8": {
+   "n_items": 10042,
+   "n_models": 8,
+   "true_pairs": 28,
+   "looks": 106,
+   "orders": 50,
+   "certifiers": {
+    "e_bonferroni": {
+     "true_certified": {
+      "0.05": 0.9,
+      "0.1": 6.26,
+      "0.25": 12.08,
+      "0.5": 12.98,
+      "0.75": 17.7,
+      "1.0": 25.92
+     },
+     "ever_wrong": 0.0
+    },
+    "shortcut": {
+     "true_certified": {
+      "0.05": 0.9,
+      "0.1": 6.28,
+      "0.25": 12.08,
+      "0.5": 12.98,
+      "0.75": 17.7,
+      "1.0": 25.92
+     },
+     "ever_wrong": 0.0
+    },
+    "exact": {
+     "true_certified": {
+      "0.05": 1.08,
+      "0.1": 6.74,
+      "0.25": 12.16,
+      "0.5": 13.3,
+      "0.75": 18.08,
+      "1.0": 26.16
+     },
+     "ever_wrong": 0.02
+    },
+    "exact_adjacent": {
+     "true_certified": {
+      "0.05": 0.24,
+      "0.1": 2.12,
+      "0.25": 11.36,
+      "0.5": 12.1,
+      "0.75": 14.34,
+      "1.0": 26.3
+     },
+     "ever_wrong": 0.0
+    }
+   },
+   "per_look": {
+    "shortcut>e_bonferroni": 16,
+    "shortcut<e_bonferroni": 0,
+    "exact>shortcut": 1038,
+    "exact<shortcut": 0,
+    "exact>e_bonferroni": 1041,
+    "exact<e_bonferroni": 0,
+    "exact_adjacent>e_bonferroni": 334,
+    "exact_adjacent<e_bonferroni": 2005,
+    "looks_total": 5300
+   }
+  },
+  "arc/top8": {
+   "n_items": 1172,
+   "n_models": 8,
+   "true_pairs": 28,
+   "looks": 103,
+   "orders": 50,
+   "certifiers": {
+    "e_bonferroni": {
+     "true_certified": {
+      "0.05": 0.0,
+      "0.1": 0.0,
+      "0.25": 0.08,
+      "0.5": 0.82,
+      "0.75": 6.14,
+      "1.0": 26.5
+     },
+     "ever_wrong": 0.0
+    },
+    "shortcut": {
+     "true_certified": {
+      "0.05": 0.0,
+      "0.1": 0.0,
+      "0.25": 0.08,
+      "0.5": 0.82,
+      "0.75": 6.16,
+      "1.0": 26.5
+     },
+     "ever_wrong": 0.0
+    },
+    "exact": {
+     "true_certified": {
+      "0.05": 0.0,
+      "0.1": 0.0,
+      "0.25": 0.12,
+      "0.5": 0.94,
+      "0.75": 6.86,
+      "1.0": 26.6
+     },
+     "ever_wrong": 0.0
+    },
+    "exact_adjacent": {
+     "true_certified": {
+      "0.05": 0.0,
+      "0.1": 0.0,
+      "0.25": 0.0,
+      "0.5": 0.0,
+      "0.75": 0.0,
+      "1.0": 26.9
+     },
+     "ever_wrong": 0.0
+    }
+   },
+   "per_look": {
+    "shortcut>e_bonferroni": 19,
+    "shortcut<e_bonferroni": 0,
+    "exact>shortcut": 1022,
+    "exact<shortcut": 0,
+    "exact>e_bonferroni": 1029,
+    "exact<e_bonferroni": 0,
+    "exact_adjacent>e_bonferroni": 42,
+    "exact_adjacent<e_bonferroni": 2208,
+    "looks_total": 5150
+   }
+  },
+  "gsm8k/top8": {
+   "n_items": 1319,
+   "n_models": 8,
+   "true_pairs": 28,
+   "looks": 107,
+   "orders": 50,
+   "certifiers": {
+    "e_bonferroni": {
+     "true_certified": {
+      "0.05": 0.0,
+      "0.1": 0.4,
+      "0.25": 4.78,
+      "0.5": 12.76,
+      "0.75": 20.06,
+      "1.0": 27.0
+     },
+     "ever_wrong": 0.0
+    },
+    "shortcut": {
+     "true_certified": {
+      "0.05": 0.0,
+      "0.1": 0.4,
+      "0.25": 4.78,
+      "0.5": 12.76,
+      "0.75": 20.06,
+      "1.0": 27.0
+     },
+     "ever_wrong": 0.0
+    },
+    "exact": {
+     "true_certified": {
+      "0.05": 0.04,
+      "0.1": 0.52,
+      "0.25": 5.28,
+      "0.5": 13.7,
+      "0.75": 20.38,
+      "1.0": 27.0
+     },
+     "ever_wrong": 0.0
+    },
+    "exact_adjacent": {
+     "true_certified": {
+      "0.05": 0.0,
+      "0.1": 0.0,
+      "0.25": 0.02,
+      "0.5": 5.74,
+      "0.75": 18.14,
+      "1.0": 27.0
+     },
+     "ever_wrong": 0.0
+    }
+   },
+   "per_look": {
+    "shortcut>e_bonferroni": 10,
+    "shortcut<e_bonferroni": 0,
+    "exact>shortcut": 1575,
+    "exact<shortcut": 0,
+    "exact>e_bonferroni": 1580,
+    "exact<e_bonferroni": 0,
+    "exact_adjacent>e_bonferroni": 253,
+    "exact_adjacent<e_bonferroni": 3612,
+    "looks_total": 5350
+   }
+  },
+  "winogrande/top8": {
+   "n_items": 1267,
+   "n_models": 8,
+   "true_pairs": 25,
+   "looks": 103,
+   "orders": 50,
+   "certifiers": {
+    "e_bonferroni": {
+     "true_certified": {
+      "0.05": 0.0,
+      "0.1": 0.0,
+      "0.25": 0.0,
+      "0.5": 0.2,
+      "0.75": 2.4,
+      "1.0": 22.0
+     },
+     "ever_wrong": 0.0
+    },
+    "shortcut": {
+     "true_certified": {
+      "0.05": 0.0,
+      "0.1": 0.0,
+      "0.25": 0.0,
+      "0.5": 0.2,
+      "0.75": 2.42,
+      "1.0": 22.0
+     },
+     "ever_wrong": 0.0
+    },
+    "exact": {
+     "true_certified": {
+      "0.05": 0.0,
+      "0.1": 0.0,
+      "0.25": 0.0,
+      "0.5": 0.26,
+      "0.75": 2.62,
+      "1.0": 22.0
+     },
+     "ever_wrong": 0.0
+    },
+    "exact_adjacent": {
+     "true_certified": {
+      "0.05": 0.0,
+      "0.1": 0.0,
+      "0.25": 0.0,
+      "0.5": 0.0,
+      "0.75": 0.14,
+      "1.0": 22.0
+     },
+     "ever_wrong": 0.0
+    }
+   },
+   "per_look": {
+    "shortcut>e_bonferroni": 20,
+    "shortcut<e_bonferroni": 0,
+    "exact>shortcut": 498,
+    "exact<shortcut": 0,
+    "exact>e_bonferroni": 511,
+    "exact<e_bonferroni": 0,
+    "exact_adjacent>e_bonferroni": 43,
+    "exact_adjacent<e_bonferroni": 1632,
+    "looks_total": 5150
+   }
+  },
+  "truthfulqa/top8": {
+   "n_items": 817,
+   "n_models": 8,
+   "true_pairs": 28,
+   "looks": 107,
+   "orders": 50,
+   "certifiers": {
+    "e_bonferroni": {
+     "true_certified": {
+      "0.05": 0.0,
+      "0.1": 0.0,
+      "0.25": 0.16,
+      "0.5": 5.54,
+      "0.75": 14.16,
+      "1.0": 26.84
+     },
+     "ever_wrong": 0.0
+    },
+    "shortcut": {
+     "true_certified": {
+      "0.05": 0.0,
+      "0.1": 0.0,
+      "0.25": 0.16,
+      "0.5": 5.56,
+      "0.75": 14.16,
+      "1.0": 26.84
+     },
+     "ever_wrong": 0.0
+    },
+    "exact": {
+     "true_certified": {
+      "0.05": 0.0,
+      "0.1": 0.0,
+      "0.25": 0.24,
+      "0.5": 6.28,
+      "0.75": 14.72,
+      "1.0": 26.92
+     },
+     "ever_wrong": 0.0
+    },
+    "exact_adjacent": {
+     "true_certified": {
+      "0.05": 0.0,
+      "0.1": 0.0,
+      "0.25": 0.0,
+      "0.5": 0.0,
+      "0.75": 2.18,
+      "1.0": 26.98
+     },
+     "ever_wrong": 0.0
+    }
+   },
+   "per_look": {
+    "shortcut>e_bonferroni": 47,
+    "shortcut<e_bonferroni": 0,
+    "exact>shortcut": 1554,
+    "exact<shortcut": 0,
+    "exact>e_bonferroni": 1581,
+    "exact<e_bonferroni": 0,
+    "exact_adjacent>e_bonferroni": 76,
+    "exact_adjacent<e_bonferroni": 3370,
+    "looks_total": 5350
+   }
+  }
+ },
+ "seconds": 1535.168730020523
+}

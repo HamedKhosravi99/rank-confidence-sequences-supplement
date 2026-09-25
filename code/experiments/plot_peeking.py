@@ -30,7 +30,7 @@ SERIES = {  # name: (label, colour, marker, fixed-sample?)
 }
 TITLES = {
     "all_tied": "All six models tied",
-    "tied_leaders": "Two tied pairs at the top",
+    "tied_leaders": "Tied pairs at ranks 1 and 3",
     "near_ties": "Near ties, gaps of 0.004",
 }
 ORDER = ("all_tied", "tied_leaders", "near_ties")
@@ -49,7 +49,7 @@ def main() -> None:
     plt.rcParams.update({"font.size": 8.5, "font.family": "serif", "axes.edgecolor": MUTED,
                          "axes.linewidth": 0.8, "pdf.fonttype": 42})
     fig, axes = plt.subplots(1, len(scenarios), figsize=(6.75, 2.4), sharey=True)
-    for ax, name in zip(axes, scenarios):
+    for panel, (ax, name) in enumerate(zip(axes, scenarios)):
         methods = res["scenarios"][name]["methods"]
         for key, (label, colour, marker, fixed) in SERIES.items():
             rows = methods[key]
@@ -66,7 +66,8 @@ def main() -> None:
         ax.set_xticks([1, 5, 20, 100])          # a readable subset; the axis is logarithmic
         ax.set_xticklabels(["1", "5", "20", "100"])
         ax.minorticks_off()
-        ax.set_title(TITLES.get(name, name), fontsize=8.5, color=INK, loc="left")
+        ax.set_title(f"({chr(97 + panel)}) " + TITLES.get(name, name),
+                     fontsize=8.5, color=INK, loc="left")
         ax.grid(axis="y", color=GRID, linewidth=0.6)
         ax.set_axisbelow(True)
         ax.tick_params(colors=MUTED, length=2)
@@ -75,8 +76,8 @@ def main() -> None:
             ax.spines[side].set_visible(False)
     axes[0].set_ylabel("P(some report is wrong)", color=MUTED)
     axes[0].set_ylim(0, 0.65)  # headroom for the key above the highest series
-    axes[1].annotate(f"nominal level $\\alpha$ = {alpha:g}", xy=(1, alpha), xytext=(2, 4),
-                     textcoords="offset points", fontsize=7.5, color=INK, va="bottom", ha="left")
+    axes[1].text(0.04, 0.97, f"nominal level $\\alpha$ = {alpha:g}",
+                 transform=axes[1].transAxes, fontsize=7.5, color=INK, va="top", ha="left")
     # direct group labels in ink (text never wears the series colour), placed clear of the marks
     axes[0].text(0.04, 0.97, "dashed, open: fixed-sample\nsolid, filled: e-process",
                  transform=axes[0].transAxes, fontsize=7.5, color=INK, va="top", linespacing=1.3)

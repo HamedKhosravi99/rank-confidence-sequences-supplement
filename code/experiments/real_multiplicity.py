@@ -31,7 +31,8 @@ from experiments.real_leaderboard import BENCHMARKS, FRACTIONS, SUBSETS, choose,
 from rcs.certify import BonferroniCertifier, ExactCertifier, ShortcutCertifier
 from rcs.wealth import log_wealth_paths
 
-PAIRS = (("shortcut", "e_bonferroni"), ("exact", "shortcut"), ("exact", "e_bonferroni"))
+PAIRS = (("shortcut", "e_bonferroni"), ("exact", "shortcut"), ("exact", "e_bonferroni"),
+         ("exact_adjacent", "e_bonferroni"))
 
 
 def _certifiers(m: int, alpha: float) -> dict:

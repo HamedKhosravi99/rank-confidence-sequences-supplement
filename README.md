@@ -56,24 +56,26 @@ reproduces its file. Plotting scripts read the JSON and write the figure.
 | Paper | Driver | Result file |
 |---|---|---|
 | E.1, monitoring breaks fixed-sample sets | `experiments/peeking.py` | `results/peeking/peeking_mixture_reps5000_n2000.json`, `results/peeking/peeking_fixed_reps5000_n2000.json` |
+| E.2, top twenty, twenty spread and top eight | `experiments/real_leaderboard.py` | `results/real_leaderboard/real_leaderboard_orders50.json` |
 | E.2, Table 2, whole leaderboard | `experiments/full_leaderboard.py` | `results/full_leaderboard/full_leaderboard_orders50.json` |
+| E.3, simulated retirement rules and the Pocock comparison | `experiments/early_stopping.py` | `results/early_stopping/early_stopping_reps300_n5000.json` |
+| E.3, cost against `k`, with the Pocock design across `k` | `experiments/early_stopping_k.py` | `results/early_stopping/early_stopping_k_reps200_n5000.json`, `results/early_stopping/diagnostics/early_stopping_k_reps200_n5000_conditional.json` |
+| E.3, retirement on the real leaderboard, twenty models | `experiments/real_leaderboard.py` | `results/real_leaderboard/real_leaderboard_orders50.json` |
 | E.3, Table 3, cost of retirement on all 395 | `experiments/full_leaderboard.py` | `results/full_leaderboard/full_leaderboard_orders50.json` |
-| E.3, simulated retirement rules | `experiments/early_stopping.py` | `results/early_stopping/early_stopping_reps300_n5000.json` |
-| E.3, cost against `k` and the Pocock comparison | `experiments/early_stopping_k.py` | `results/early_stopping/early_stopping_k_reps200_n5000.json`, `results/early_stopping/diagnostics/early_stopping_k_reps200_n5000_conditional.json` |
-| E.4, Table 4, price of anytime validity | `experiments/real_leaderboard.py` | `results/real_leaderboard/real_leaderboard_orders50.json` |
+| E.4, price of anytime validity in simulation, one look at 2000 items | `experiments/peeking.py` | `results/peeking/peeking_mixture_reps5000_n2000.json` |
+| E.4, Table 4, price of anytime validity on the real leaderboard | `experiments/real_leaderboard.py` | `results/real_leaderboard/real_leaderboard_orders50.json` |
 | E.5, Table 5, cross-model dependence | `experiments/dependence.py` | `results/dependence/dependence_full.json` |
-| E.6, Table 6, multiplicity correction on real wealths | `experiments/real_multiplicity.py` | `results/real_multiplicity/real_multiplicity_orders50.json` |
+| E.6, Table 6, multiplicity correction on real wealths | `experiments/real_multiplicity.py` | `results/real_multiplicity/real_multiplicity_orders50.json`; the looks ahead of and behind e-Bonferroni for the adjacent-level weights (831 and 15,052) are in `results/real_multiplicity/real_multiplicity_top8_orders50.json` |
 | E.6, the same comparison in simulation | `experiments/weighting.py` | `results/weighting/weighting_mixture_reps2000_n4000.json`, `results/weighting/weighting_fixed_reps2000_n4000.json` |
 | E.6, shortcut against e-Bonferroni, per look | `experiments/shortcut_vs_bonferroni.py` | `results/weighting/shortcut_vs_bonferroni_mixture.json`, `results/weighting/shortcut_vs_bonferroni_fixed.json` |
 | E.6, Table 7, exact test by integer programming | `experiments/exact_ilp.py` | `results/exact_ilp/exact_ilp_orders50.json` |
 | E.6, the bet matters more than the correction | `experiments/bets.py` | `results/bets/bets_near_ties-even_spread-tied_leaders-all_tied_reps1000_n4000.json`, `results/bets/bets_close_race_reps300_n20000.json` |
-| Implementation note, tightness of the validity bound | `experiments/tightness.py` | `results/tightness/tightness_m4_alpha0.2_runs4000.json` |
+| Opening paragraph (Implementation), tightness of the validity bound | `experiments/tightness.py` | `results/tightness/tightness_m4_alpha0.2_runs4000.json` |
 
-### Appendix B
+### Not reported in the paper
 
-| Paper | Driver | Result file |
-|---|---|---|
-| Numerical check of the growth and certification-time proposition | `experiments/power_check.py` | `results/power/power_check.json` |
+`experiments/power_check.py` writes `results/power/power_check.json`, a numerical check of the growth
+and certification-time rates of Proposition B.4 against the implemented method.
 
 ## Layout
 
