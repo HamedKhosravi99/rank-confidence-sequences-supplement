@@ -1,8 +1,8 @@
 """Figure for E2: how much of a real leaderboard is distinguishable, as the benchmark is evaluated.
 
 One panel per benchmark; x = fraction of the benchmark evaluated (log scale); y = certified true
-orderings as a fraction of all true orderings, for our rank confidence sequence (monitored
-throughout), fixed-sample Holm rank sets with a paired z-test, and fixed-sample Romano-Wolf step-down rank
+dominances as a fraction of all true dominances, for our rank confidence sequence (checked
+at every 1%), fixed-sample Holm rank sets with a paired z-test, and fixed-sample Romano-Wolf step-down rank
 sets (each a single look at that fraction). Tier counts are printed as a table. Colours: validated
 default palette, slots 1, 4 and 5 (line style and marker as secondary encoding).
 
@@ -68,7 +68,7 @@ def main() -> None:
         t_rw = r["fixed_rw"]["0.5"]["tiers"]
         ax.text(0.03, 0.97, f"tiers at one half:\n{t_ours:.1f} ours vs {t_rw:.1f}",
                 transform=ax.transAxes, fontsize=7, color=INK, va="top", linespacing=1.25)
-    fig.supylabel("certified true orderings", fontsize=8.5, color=MUTED, x=0.012)
+    fig.supylabel("fraction of true dominances certified", fontsize=8.5, color=MUTED, x=0.012)
     fig.text(0.5, 0.168, "fraction of the benchmark evaluated (log scale)", ha="center",
              fontsize=8.5, color=MUTED)
     handles, labels = axes[0, 0].get_legend_handles_labels()
