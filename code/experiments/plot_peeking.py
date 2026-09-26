@@ -90,11 +90,13 @@ def main() -> None:
     axes[0].set_yticks([FLOOR, 0.001, 0.01, 0.1, 1])
     axes[0].set_yticklabels(["0", "0.001", "0.01", "0.1", "1"])
     axes[0].yaxis.set_minor_locator(matplotlib.ticker.NullLocator())
-    axes[1].text(0.04, 0.97, f"nominal level $\\alpha$ = {alpha:g}",
+    axes[1].text(0.04, 0.97, f"nominal level $\\alpha$ = {alpha:g}\nshaded: $\\pm2$ standard errors",
                  transform=axes[1].transAxes, fontsize=7.5, color=INK, va="top", ha="left")
     # direct group labels in ink (text never wears the series colour), placed clear of the marks
     axes[2].text(0.04, 0.97, "dashed, open: fixed-sample\nsolid, filled: e-process",
                  transform=axes[2].transAxes, fontsize=7.5, color=INK, va="top", linespacing=1.3)
+    axes[0].text(0.97, 0.03, "0: no wrong report in any run", transform=axes[0].transAxes,
+                 fontsize=7.5, color=INK, va="bottom", ha="right")
     fig.text(0.5, 0.16, "number of looks at the leaderboard (log scale)", ha="center",
              fontsize=8.5, color=MUTED)
     handles, labels = axes[0].get_legend_handles_labels()
