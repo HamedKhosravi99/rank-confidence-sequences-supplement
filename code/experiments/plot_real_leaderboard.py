@@ -22,7 +22,7 @@ import matplotlib.pyplot as plt  # noqa: E402
 
 INK, MUTED, GRID = "#0b0b0b", "#52514e", "#e6e5e1"
 TITLES = {"mmlu": "MMLU (14,042 items)", "hellaswag": "HellaSwag (10,042)", "gsm8k": "GSM8K (1,319)",
-          "winogrande": "Winogrande (1,267)", "arc": "ARC-Challenge (1,172)", "truthfulqa": "TruthfulQA (817)"}
+          "winogrande": "WinoGrande (1,267)", "arc": "ARC-Challenge (1,172)", "truthfulqa": "TruthfulQA (817)"}
 ORDER = ("mmlu", "hellaswag", "gsm8k", "winogrande", "arc", "truthfulqa")
 
 
