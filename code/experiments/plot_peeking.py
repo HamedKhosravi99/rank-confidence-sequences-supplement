@@ -74,8 +74,8 @@ def main() -> None:
         ax.axhline(alpha, color=INK, linewidth=0.8, linestyle=":", zorder=1)
         ax.set_xscale("log")
         ax.set_yscale("log")
-        ax.set_xticks([1, 5, 20, 100])          # a readable subset; the axis is logarithmic
-        ax.set_xticklabels(["1", "5", "20", "100"])
+        ax.set_xticks([1, 10, 100])             # every multiple of ten, as on the y-axis
+        ax.set_xticklabels(["1", "10", "100"])
         ax.minorticks_off()
         ax.set_title(f"({chr(97 + panel)}) " + TITLES.get(name, name),
                      fontsize=8.5, color=INK, loc="left")
