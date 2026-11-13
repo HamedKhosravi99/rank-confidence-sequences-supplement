@@ -1,0 +1,287 @@
+{
+ "spread": {
+  "mmlu": {
+   "below_0.01": [
+    29050,
+    29050
+   ],
+   "above_0.3": [
+    4,
+    6400
+   ],
+   "pairs_above_0.3_certified": 3,
+   "pairs_above_0.3": 128,
+   "max_x_certified": 0.4977777777777796
+  },
+  "hellaswag": {
+   "below_0.01": [
+    14850,
+    14850
+   ],
+   "above_0.3": [
+    5,
+    8650
+   ],
+   "pairs_above_0.3_certified": 5,
+   "pairs_above_0.3": 173,
+   "max_x_certified": 9.281250000000723
+  },
+  "gsm8k": {
+   "below_0.01": [
+    12300,
+    12300
+   ],
+   "above_0.3": [
+    6,
+    8900
+   ],
+   "pairs_above_0.3_certified": 5,
+   "pairs_above_0.3": 178,
+   "max_x_certified": 0.5612244897959175
+  },
+  "winogrande": {
+   "below_0.01": [
+    800,
+    800
+   ],
+   "above_0.3": [
+    16,
+    23550
+   ],
+   "pairs_above_0.3_certified": 15,
+   "pairs_above_0.3": 471,
+   "max_x_certified": 1.4722222222222148
+  },
+  "arc": {
+   "below_0.01": [
+    2200,
+    2200
+   ],
+   "above_0.3": [
+    9,
+    21650
+   ],
+   "pairs_above_0.3_certified": 9,
+   "pairs_above_0.3": 433,
+   "max_x_certified": 11.624999999999654
+  },
+  "truthfulqa": {
+   "below_0.01": [
+    7600,
+    7600
+   ],
+   "above_0.3": [
+    0,
+    10400
+   ],
+   "pairs_above_0.3_certified": 0,
+   "pairs_above_0.3": 208,
+   "max_x_certified": 0.0
+  }
+ },
+ "first_look": {
+  "orders": 88,
+  "wrong_at_first_look": 67,
+  "recorded_false_pairs": 153,
+  "tied_among_recorded": 0,
+  "orders_with_several_wrong_looks": 11
+ },
+ "several_wrong_looks": [
+  {
+   "benchmark": "arc",
+   "order": 669,
+   "wrong_looks": [
+    {
+     "items": 192,
+     "false_pairs": 1,
+     "tied": 0
+    },
+    {
+     "items": 204,
+     "false_pairs": 1,
+     "tied": 0
+    }
+   ]
+  },
+  {
+   "benchmark": "arc",
+   "order": 860,
+   "wrong_looks": [
+    {
+     "items": 117,
+     "false_pairs": 2,
+     "tied": 0
+    },
+    {
+     "items": 120,
+     "false_pairs": 2,
+     "tied": 0
+    },
+    {
+     "items": 144,
+     "false_pairs": 1,
+     "tied": 0
+    }
+   ]
+  },
+  {
+   "benchmark": "gsm8k",
+   "order": 549,
+   "wrong_looks": [
+    {
+     "items": 65,
+     "false_pairs": 1,
+     "tied": 0
+    },
+    {
+     "items": 66,
+     "false_pairs": 1,
+     "tied": 0
+    }
+   ]
+  },
+  {
+   "benchmark": "gsm8k",
+   "order": 587,
+   "wrong_looks": [
+    {
+     "items": 52,
+     "false_pairs": 1,
+     "tied": 0
+    },
+    {
+     "items": 104,
+     "false_pairs": 1,
+     "tied": 0
+    },
+    {
+     "items": 117,
+     "false_pairs": 1,
+     "tied": 0
+    }
+   ]
+  },
+  {
+   "benchmark": "gsm8k",
+   "order": 597,
+   "wrong_looks": [
+    {
+     "items": 65,
+     "false_pairs": 1,
+     "tied": 0
+    },
+    {
+     "items": 66,
+     "false_pairs": 1,
+     "tied": 0
+    }
+   ]
+  },
+  {
+   "benchmark": "gsm8k",
+   "order": 993,
+   "wrong_looks": [
+    {
+     "items": 13,
+     "false_pairs": 1,
+     "tied": 0
+    },
+    {
+     "items": 26,
+     "false_pairs": 1,
+     "tied": 0
+    }
+   ]
+  },
+  {
+   "benchmark": "mmlu",
+   "order": 251,
+   "wrong_looks": [
+    {
+     "items": 700,
+     "false_pairs": 1,
+     "tied": 0
+    },
+    {
+     "items": 702,
+     "false_pairs": 1,
+     "tied": 0
+    },
+    {
+     "items": 840,
+     "false_pairs": 1,
+     "tied": 0
+    }
+   ]
+  },
+  {
+   "benchmark": "mmlu",
+   "order": 318,
+   "wrong_looks": [
+    {
+     "items": 280,
+     "false_pairs": 1,
+     "tied": 0
+    },
+    {
+     "items": 420,
+     "false_pairs": 1,
+     "tied": 0
+    }
+   ]
+  },
+  {
+   "benchmark": "mmlu",
+   "order": 494,
+   "wrong_looks": [
+    {
+     "items": 420,
+     "false_pairs": 2,
+     "tied": 0
+    },
+    {
+     "items": 560,
+     "false_pairs": 1,
+     "tied": 0
+    }
+   ]
+  },
+  {
+   "benchmark": "truthfulqa",
+   "order": 126,
+   "wrong_looks": [
+    {
+     "items": 40,
+     "false_pairs": 1,
+     "tied": 0
+    },
+    {
+     "items": 41,
+     "false_pairs": 1,
+     "tied": 0
+    }
+   ]
+  },
+  {
+   "benchmark": "truthfulqa",
+   "order": 936,
+   "wrong_looks": [
+    {
+     "items": 32,
+     "false_pairs": 1,
+     "tied": 0
+    },
+    {
+     "items": 40,
+     "false_pairs": 3,
+     "tied": 0
+    },
+    {
+     "items": 41,
+     "false_pairs": 4,
+     "tied": 0
+    }
+   ]
+  }
+ ]
+}

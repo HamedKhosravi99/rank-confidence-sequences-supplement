@@ -1,0 +1,179 @@
+{
+ "mmlu": {
+  "n_items": 14042,
+  "n_models": 395,
+  "binary": true,
+  "tied_pairs": 13,
+  "tied_models": 26,
+  "tie_groups": 13,
+  "largest_groups": [
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "identical_vectors": 2,
+  "adjacent_tied": 13,
+  "adjacent_identical": 2,
+  "adjacent_gap_1to5": 140,
+  "adjacent_gap_median": 7.5,
+  "boundary": {
+   "kth": 10960.0,
+   "k_plus_1th": 10949.0,
+   "gap": 11.0,
+   "tied_at_boundary": false,
+   "models": [
+    "cloudyu__Yi-34Bx3-MoE-90B",
+    "Weyaxi__Helion-4x34B"
+   ]
+  }
+ },
+ "hellaswag": {
+  "n_items": 10042,
+  "n_models": 395,
+  "binary": true,
+  "tied_pairs": 68,
+  "tied_models": 101,
+  "tie_groups": 45,
+  "largest_groups": [
+   4,
+   3,
+   3,
+   3,
+   3
+  ],
+  "identical_vectors": 2,
+  "adjacent_tied": 56,
+  "adjacent_identical": 2,
+  "adjacent_gap_1to5": 226,
+  "adjacent_gap_median": 2.0,
+  "boundary": {
+   "kth": 8917.0,
+   "k_plus_1th": 8900.0,
+   "gap": 17.0,
+   "tied_at_boundary": false,
+   "models": [
+    "nfaheem__Marcoroni-7b-DPO-Merge",
+    "VAGOsolutions__SauerkrautLM-SOLAR-Instruct"
+   ]
+  }
+ },
+ "arc": {
+  "n_items": 1172,
+  "n_models": 395,
+  "binary": true,
+  "tied_pairs": 290,
+  "tied_models": 264,
+  "tie_groups": 93,
+  "largest_groups": [
+   7,
+   5,
+   5,
+   5,
+   5
+  ],
+  "identical_vectors": 7,
+  "adjacent_tied": 171,
+  "adjacent_identical": 5,
+  "adjacent_gap_1to5": 210,
+  "adjacent_gap_median": 1.0,
+  "boundary": {
+   "kth": 853.0,
+   "k_plus_1th": 850.0,
+   "gap": 3.0,
+   "tied_at_boundary": false,
+   "models": [
+    "Sao10K__WinterGoddess-1.4x-70B-L2",
+    "CultriX__MistralTrixTest"
+   ]
+  }
+ },
+ "gsm8k": {
+  "n_items": 1319,
+  "n_models": 395,
+  "binary": true,
+  "tied_pairs": 171,
+  "tied_models": 157,
+  "tie_groups": 64,
+  "largest_groups": [
+   11,
+   7,
+   5,
+   3,
+   3
+  ],
+  "identical_vectors": 57,
+  "adjacent_tied": 93,
+  "adjacent_identical": 11,
+  "adjacent_gap_1to5": 243,
+  "adjacent_gap_median": 1.0,
+  "boundary": {
+   "kth": 962.0,
+   "k_plus_1th": 961.0,
+   "gap": 1.0,
+   "tied_at_boundary": false,
+   "models": [
+    "shadowml__Daredevil-7B",
+    "cloudyu__Yi-34Bx3-MoE-90B"
+   ]
+  }
+ },
+ "winogrande": {
+  "n_items": 1267,
+  "n_models": 395,
+  "binary": true,
+  "tied_pairs": 436,
+  "tied_models": 324,
+  "tie_groups": 104,
+  "largest_groups": [
+   8,
+   7,
+   7,
+   6,
+   6
+  ],
+  "identical_vectors": 5,
+  "adjacent_tied": 220,
+  "adjacent_identical": 0,
+  "adjacent_gap_1to5": 164,
+  "adjacent_gap_median": 0.0,
+  "boundary": {
+   "kth": 1077.0,
+   "k_plus_1th": 1074.0,
+   "gap": 3.0,
+   "tied_at_boundary": false,
+   "models": [
+    "Sao10K__WinterGoddess-1.4x-70B-L2",
+    "Weyaxi__Bagel-Hermes-2x34b"
+   ]
+  }
+ },
+ "truthfulqa": {
+  "n_items": 817,
+  "n_models": 395,
+  "binary": false,
+  "tied_pairs": 4,
+  "tied_models": 5,
+  "tie_groups": 2,
+  "largest_groups": [
+   3,
+   2
+  ],
+  "identical_vectors": 4,
+  "adjacent_tied": 3,
+  "adjacent_identical": 3,
+  "adjacent_gap_1to5": 386,
+  "adjacent_gap_median": 0.5054850095679626,
+  "boundary": {
+   "kth": 588.0481352217766,
+   "k_plus_1th": 587.9398333671927,
+   "gap": 0.10830185458394226,
+   "tied_at_boundary": false,
+   "models": [
+    "jeonsworld__CarbonVillain-en-10.7B-v1",
+    "kekmodel__StopCarbon-10.7B-v6"
+   ]
+  }
+ }
+}

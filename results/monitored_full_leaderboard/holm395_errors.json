@@ -1,0 +1,3112 @@
+[
+ {
+  "items_seen": 117,
+  "fraction": 0.09982935153583618,
+  "pairs": [
+   {
+    "i": 180,
+    "j": 207,
+    "gap_full": 5.999999999999959,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 240,
+    "seen_mean_diff": 0.2222222222222222,
+    "seen_sd": 0.4754509857458951,
+    "z": 5.055622813649996,
+    "items_differ_seen": 32,
+    "seen_wins_of_worse": 29,
+    "seen_wins_of_better": 3
+   }
+  ],
+  "benchmark": "arc",
+  "order": 338,
+  "seed": 3622772152,
+  "wrong_looks": 1,
+  "source": "first runs"
+ },
+ {
+  "items_seen": 48,
+  "fraction": 0.040955631399317405,
+  "pairs": [
+   {
+    "i": 11,
+    "j": 281,
+    "gap_full": 14.000000000000078,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 316,
+    "seen_mean_diff": 0.3541666666666667,
+    "seen_sd": 0.4833211052500623,
+    "z": 5.076829084023521,
+    "items_differ_seen": 17,
+    "seen_wins_of_worse": 17,
+    "seen_wins_of_better": 0
+   }
+  ],
+  "benchmark": "arc",
+  "order": 496,
+  "seed": 1354779532,
+  "wrong_looks": 1,
+  "source": "first runs"
+ },
+ {
+  "items_seen": 192,
+  "fraction": 0.16382252559726962,
+  "pairs": [
+   {
+    "i": 315,
+    "j": 384,
+    "gap_full": 12.000000000000048,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 164,
+    "seen_mean_diff": 0.125,
+    "seen_sd": 0.34701419015299545,
+    "z": 4.991296773210431,
+    "items_differ_seen": 26,
+    "seen_wins_of_worse": 25,
+    "seen_wins_of_better": 1
+   }
+  ],
+  "benchmark": "arc",
+  "order": 669,
+  "seed": 1207942756,
+  "wrong_looks": 2,
+  "source": "first runs"
+ },
+ {
+  "items_seen": 12,
+  "fraction": 0.010238907849829351,
+  "pairs": [
+   {
+    "i": 146,
+    "j": 387,
+    "gap_full": 16.99999999999993,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 283,
+    "seen_mean_diff": 0.75,
+    "seen_sd": 0.45226701686664544,
+    "z": 5.744562646538029,
+    "items_differ_seen": 9,
+    "seen_wins_of_worse": 9,
+    "seen_wins_of_better": 0
+   }
+  ],
+  "benchmark": "arc",
+  "order": 817,
+  "seed": 286824195,
+  "wrong_looks": 1,
+  "source": "first runs"
+ },
+ {
+  "items_seen": 117,
+  "fraction": 0.09982935153583618,
+  "pairs": [
+   {
+    "i": 65,
+    "j": 337,
+    "gap_full": 19.00000000000009,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 251,
+    "seen_mean_diff": 0.1794871794871795,
+    "seen_sd": 0.38541031908649703,
+    "z": 5.0373604199024715,
+    "items_differ_seen": 21,
+    "seen_wins_of_worse": 21,
+    "seen_wins_of_better": 0
+   },
+   {
+    "i": 70,
+    "j": 337,
+    "gap_full": 12.999999999999998,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 253,
+    "seen_mean_diff": 0.18803418803418803,
+    "seen_sd": 0.39242007601864815,
+    "z": 5.18296805843301,
+    "items_differ_seen": 22,
+    "seen_wins_of_worse": 22,
+    "seen_wins_of_better": 0
+   }
+  ],
+  "benchmark": "arc",
+  "order": 860,
+  "seed": 3924571888,
+  "wrong_looks": 3,
+  "source": "first runs"
+ },
+ {
+  "items_seen": 39,
+  "fraction": 0.029567854435178165,
+  "pairs": [
+   {
+    "i": 119,
+    "j": 91,
+    "gap_full": 16.999999999999954,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 425,
+    "seen_mean_diff": 0.41025641025641024,
+    "seen_sd": 0.4983102351129802,
+    "z": 5.141476695337211,
+    "items_differ_seen": 16,
+    "seen_wins_of_worse": 16,
+    "seen_wins_of_better": 0
+   }
+  ],
+  "benchmark": "gsm8k",
+  "order": 15,
+  "seed": 171752078,
+  "wrong_looks": 1,
+  "source": "first runs"
+ },
+ {
+  "items_seen": 13,
+  "fraction": 0.009855951478392721,
+  "pairs": [
+   {
+    "i": 141,
+    "j": 111,
+    "gap_full": 23.999999999999986,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 420,
+    "seen_mean_diff": 0.6923076923076923,
+    "seen_sd": 0.48038446141526137,
+    "z": 5.196152422706632,
+    "items_differ_seen": 9,
+    "seen_wins_of_worse": 9,
+    "seen_wins_of_better": 0
+   }
+  ],
+  "benchmark": "gsm8k",
+  "order": 84,
+  "seed": 1659159282,
+  "wrong_looks": 1,
+  "source": "first runs"
+ },
+ {
+  "items_seen": 13,
+  "fraction": 0.009855951478392721,
+  "pairs": [
+   {
+    "i": 126,
+    "j": 105,
+    "gap_full": 39.99999999999998,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 446,
+    "seen_mean_diff": 0.6923076923076923,
+    "seen_sd": 0.48038446141526137,
+    "z": 5.196152422706632,
+    "items_differ_seen": 9,
+    "seen_wins_of_worse": 9,
+    "seen_wins_of_better": 0
+   }
+  ],
+  "benchmark": "gsm8k",
+  "order": 90,
+  "seed": 1057540315,
+  "wrong_looks": 1,
+  "source": "first runs"
+ },
+ {
+  "items_seen": 26,
+  "fraction": 0.019711902956785442,
+  "pairs": [
+   {
+    "i": 137,
+    "j": 170,
+    "gap_full": 58.00000000000004,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 398,
+    "seen_mean_diff": 0.5,
+    "seen_sd": 0.5099019513592785,
+    "z": 4.999999999999999,
+    "items_differ_seen": 13,
+    "seen_wins_of_worse": 13,
+    "seen_wins_of_better": 0
+   }
+  ],
+  "benchmark": "gsm8k",
+  "order": 159,
+  "seed": 4123769785,
+  "wrong_looks": 1,
+  "source": "first runs"
+ },
+ {
+  "items_seen": 13,
+  "fraction": 0.009855951478392721,
+  "pairs": [
+   {
+    "i": 80,
+    "j": 7,
+    "gap_full": 7.000000000000033,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 427,
+    "seen_mean_diff": 0.6923076923076923,
+    "seen_sd": 0.48038446141526137,
+    "z": 5.196152422706632,
+    "items_differ_seen": 9,
+    "seen_wins_of_worse": 9,
+    "seen_wins_of_better": 0
+   }
+  ],
+  "benchmark": "gsm8k",
+  "order": 335,
+  "seed": 3117302908,
+  "wrong_looks": 1,
+  "source": "first runs"
+ },
+ {
+  "items_seen": 26,
+  "fraction": 0.019711902956785442,
+  "pairs": [
+   {
+    "i": 112,
+    "j": 35,
+    "gap_full": 92.0000000000001,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 424,
+    "seen_mean_diff": 0.5,
+    "seen_sd": 0.5099019513592785,
+    "z": 4.999999999999999,
+    "items_differ_seen": 13,
+    "seen_wins_of_worse": 13,
+    "seen_wins_of_better": 0
+   }
+  ],
+  "benchmark": "gsm8k",
+  "order": 413,
+  "seed": 3586980997,
+  "wrong_looks": 1,
+  "source": "first runs"
+ },
+ {
+  "items_seen": 13,
+  "fraction": 0.009855951478392721,
+  "pairs": [
+   {
+    "i": 27,
+    "j": 58,
+    "gap_full": 32.99999999999994,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 483,
+    "seen_mean_diff": 0.7692307692307693,
+    "seen_sd": 0.4385290096535146,
+    "z": 6.324555320336758,
+    "items_differ_seen": 10,
+    "seen_wins_of_worse": 10,
+    "seen_wins_of_better": 0
+   }
+  ],
+  "benchmark": "gsm8k",
+  "order": 424,
+  "seed": 2409498392,
+  "wrong_looks": 1,
+  "source": "first runs"
+ },
+ {
+  "items_seen": 13,
+  "fraction": 0.009855951478392721,
+  "pairs": [
+   {
+    "i": 83,
+    "j": 193,
+    "gap_full": 48.999999999999936,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 429,
+    "seen_mean_diff": 0.6923076923076923,
+    "seen_sd": 0.48038446141526137,
+    "z": 5.196152422706632,
+    "items_differ_seen": 9,
+    "seen_wins_of_worse": 9,
+    "seen_wins_of_better": 0
+   }
+  ],
+  "benchmark": "gsm8k",
+  "order": 452,
+  "seed": 3210570379,
+  "wrong_looks": 1,
+  "source": "first runs"
+ },
+ {
+  "items_seen": 65,
+  "fraction": 0.04927975739196361,
+  "pairs": [
+   {
+    "i": 121,
+    "j": 25,
+    "gap_full": 7.000000000000033,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 303,
+    "seen_mean_diff": 0.2923076923076923,
+    "seen_sd": 0.45836246993635266,
+    "z": 5.141476695337212,
+    "items_differ_seen": 19,
+    "seen_wins_of_worse": 19,
+    "seen_wins_of_better": 0
+   }
+  ],
+  "benchmark": "gsm8k",
+  "order": 549,
+  "seed": 2354363037,
+  "wrong_looks": 2,
+  "source": "first runs"
+ },
+ {
+  "items_seen": 52,
+  "fraction": 0.039423805913570885,
+  "pairs": [
+   {
+    "i": 164,
+    "j": 73,
+    "gap_full": 4.999999999999997,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 243,
+    "seen_mean_diff": 0.3269230769230769,
+    "seen_sd": 0.473665466715671,
+    "z": 4.977090372037519,
+    "items_differ_seen": 17,
+    "seen_wins_of_worse": 17,
+    "seen_wins_of_better": 0
+   }
+  ],
+  "benchmark": "gsm8k",
+  "order": 587,
+  "seed": 3460247293,
+  "wrong_looks": 3,
+  "source": "first runs"
+ },
+ {
+  "items_seen": 65,
+  "fraction": 0.04927975739196361,
+  "pairs": [
+   {
+    "i": 87,
+    "j": 132,
+    "gap_full": 15.999999999999991,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 286,
+    "seen_mean_diff": 0.3230769230769231,
+    "seen_sd": 0.503354134397826,
+    "z": 5.174745270523058,
+    "items_differ_seen": 23,
+    "seen_wins_of_worse": 22,
+    "seen_wins_of_better": 1
+   }
+  ],
+  "benchmark": "gsm8k",
+  "order": 597,
+  "seed": 1182091068,
+  "wrong_looks": 2,
+  "source": "first runs"
+ },
+ {
+  "items_seen": 13,
+  "fraction": 0.009855951478392721,
+  "pairs": [
+   {
+    "i": 139,
+    "j": 153,
+    "gap_full": 20.99999999999995,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 475,
+    "seen_mean_diff": 0.6923076923076923,
+    "seen_sd": 0.48038446141526137,
+    "z": 5.196152422706632,
+    "items_differ_seen": 9,
+    "seen_wins_of_worse": 9,
+    "seen_wins_of_better": 0
+   }
+  ],
+  "benchmark": "gsm8k",
+  "order": 726,
+  "seed": 287231725,
+  "wrong_looks": 1,
+  "source": "first runs"
+ },
+ {
+  "items_seen": 13,
+  "fraction": 0.009855951478392721,
+  "pairs": [
+   {
+    "i": 197,
+    "j": 51,
+    "gap_full": 35.99999999999998,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 456,
+    "seen_mean_diff": 0.6923076923076923,
+    "seen_sd": 0.48038446141526137,
+    "z": 5.196152422706632,
+    "items_differ_seen": 9,
+    "seen_wins_of_worse": 9,
+    "seen_wins_of_better": 0
+   }
+  ],
+  "benchmark": "gsm8k",
+  "order": 775,
+  "seed": 3576441918,
+  "wrong_looks": 1,
+  "source": "first runs"
+ },
+ {
+  "items_seen": 26,
+  "fraction": 0.019711902956785442,
+  "pairs": [
+   {
+    "i": 139,
+    "j": 153,
+    "gap_full": 20.99999999999995,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 475,
+    "seen_mean_diff": 0.5,
+    "seen_sd": 0.5099019513592785,
+    "z": 4.999999999999999,
+    "items_differ_seen": 13,
+    "seen_wins_of_worse": 13,
+    "seen_wins_of_better": 0
+   }
+  ],
+  "benchmark": "gsm8k",
+  "order": 778,
+  "seed": 2866290827,
+  "wrong_looks": 1,
+  "source": "first runs"
+ },
+ {
+  "items_seen": 13,
+  "fraction": 0.009855951478392721,
+  "pairs": [
+   {
+    "i": 149,
+    "j": 187,
+    "gap_full": 3.0000000000000346,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 393,
+    "seen_mean_diff": 0.6923076923076923,
+    "seen_sd": 0.48038446141526137,
+    "z": 5.196152422706632,
+    "items_differ_seen": 9,
+    "seen_wins_of_worse": 9,
+    "seen_wins_of_better": 0
+   }
+  ],
+  "benchmark": "gsm8k",
+  "order": 886,
+  "seed": 1648326860,
+  "wrong_looks": 1,
+  "source": "first runs"
+ },
+ {
+  "items_seen": 13,
+  "fraction": 0.009855951478392721,
+  "pairs": [
+   {
+    "i": 82,
+    "j": 172,
+    "gap_full": 16.99999999999999,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 423,
+    "seen_mean_diff": 0.6923076923076923,
+    "seen_sd": 0.48038446141526137,
+    "z": 5.196152422706632,
+    "items_differ_seen": 9,
+    "seen_wins_of_worse": 9,
+    "seen_wins_of_better": 0
+   }
+  ],
+  "benchmark": "gsm8k",
+  "order": 889,
+  "seed": 699192837,
+  "wrong_looks": 1,
+  "source": "first runs"
+ },
+ {
+  "items_seen": 13,
+  "fraction": 0.009855951478392721,
+  "pairs": [
+   {
+    "i": 133,
+    "j": 205,
+    "gap_full": 2.9999999999998885,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 427,
+    "seen_mean_diff": 0.6923076923076923,
+    "seen_sd": 0.48038446141526137,
+    "z": 5.196152422706632,
+    "items_differ_seen": 9,
+    "seen_wins_of_worse": 9,
+    "seen_wins_of_better": 0
+   },
+   {
+    "i": 188,
+    "j": 139,
+    "gap_full": 20.00000000000006,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 512,
+    "seen_mean_diff": 0.6923076923076923,
+    "seen_sd": 0.48038446141526137,
+    "z": 5.196152422706632,
+    "items_differ_seen": 9,
+    "seen_wins_of_worse": 9,
+    "seen_wins_of_better": 0
+   },
+   {
+    "i": 188,
+    "j": 205,
+    "gap_full": 161.99999999999997,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 496,
+    "seen_mean_diff": 0.6923076923076923,
+    "seen_sd": 0.48038446141526137,
+    "z": 5.196152422706632,
+    "items_differ_seen": 9,
+    "seen_wins_of_worse": 9,
+    "seen_wins_of_better": 0
+   }
+  ],
+  "benchmark": "gsm8k",
+  "order": 940,
+  "seed": 896278362,
+  "wrong_looks": 1,
+  "source": "first runs"
+ },
+ {
+  "items_seen": 13,
+  "fraction": 0.009855951478392721,
+  "pairs": [
+   {
+    "i": 154,
+    "j": 107,
+    "gap_full": 114.0,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 464,
+    "seen_mean_diff": 0.6923076923076923,
+    "seen_sd": 0.48038446141526137,
+    "z": 5.196152422706632,
+    "items_differ_seen": 9,
+    "seen_wins_of_worse": 9,
+    "seen_wins_of_better": 0
+   }
+  ],
+  "benchmark": "gsm8k",
+  "order": 993,
+  "seed": 338570375,
+  "wrong_looks": 2,
+  "source": "first runs"
+ },
+ {
+  "items_seen": 700,
+  "fraction": 0.049850448654037885,
+  "pairs": [
+   {
+    "i": 353,
+    "j": 388,
+    "gap_full": 3.0000000000003064,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 2503,
+    "seen_mean_diff": 0.08142857142857143,
+    "seen_sd": 0.40447880844197875,
+    "z": 5.3263544373342295,
+    "items_differ_seen": 119,
+    "seen_wins_of_worse": 88,
+    "seen_wins_of_better": 31
+   }
+  ],
+  "benchmark": "mmlu",
+  "order": 251,
+  "seed": 902076034,
+  "wrong_looks": 3,
+  "source": "first runs"
+ },
+ {
+  "items_seen": 280,
+  "fraction": 0.019940179461615155,
+  "pairs": [
+   {
+    "i": 271,
+    "j": 157,
+    "gap_full": 48.00000000000023,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 2776,
+    "seen_mean_diff": 0.1357142857142857,
+    "seen_sd": 0.4433614557450255,
+    "z": 5.122083411421647,
+    "items_differ_seen": 60,
+    "seen_wins_of_worse": 49,
+    "seen_wins_of_better": 11
+   }
+  ],
+  "benchmark": "mmlu",
+  "order": 318,
+  "seed": 3473122151,
+  "wrong_looks": 2,
+  "source": "first runs"
+ },
+ {
+  "items_seen": 420,
+  "fraction": 0.02991026919242273,
+  "pairs": [
+   {
+    "i": 247,
+    "j": 240,
+    "gap_full": 144.99999999999923,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 4231,
+    "seen_mean_diff": 0.1380952380952381,
+    "seen_sd": 0.5215876172412172,
+    "z": 5.425953603959722,
+    "items_differ_seen": 122,
+    "seen_wins_of_worse": 90,
+    "seen_wins_of_better": 32
+   },
+   {
+    "i": 296,
+    "j": 240,
+    "gap_full": 204.99999999999912,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 4435,
+    "seen_mean_diff": 0.13333333333333333,
+    "seen_sd": 0.4946813379276343,
+    "z": 5.523798847361463,
+    "items_differ_seen": 110,
+    "seen_wins_of_worse": 83,
+    "seen_wins_of_better": 27
+   }
+  ],
+  "benchmark": "mmlu",
+  "order": 494,
+  "seed": 1019076377,
+  "wrong_looks": 2,
+  "source": "first runs"
+ },
+ {
+  "items_seen": 140,
+  "fraction": 0.009970089730807577,
+  "pairs": [
+   {
+    "i": 28,
+    "j": 29,
+    "gap_full": 149.99999999999974,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 3340,
+    "seen_mean_diff": 0.20714285714285716,
+    "seen_sd": 0.48719470900348105,
+    "z": 5.030734721495479,
+    "items_differ_seen": 39,
+    "seen_wins_of_worse": 34,
+    "seen_wins_of_better": 5
+   },
+   {
+    "i": 49,
+    "j": 29,
+    "gap_full": 489.00000000000006,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 3571,
+    "seen_mean_diff": 0.20714285714285716,
+    "seen_sd": 0.4871947090034811,
+    "z": 5.030734721495478,
+    "items_differ_seen": 39,
+    "seen_wins_of_worse": 34,
+    "seen_wins_of_better": 5
+   },
+   {
+    "i": 55,
+    "j": 29,
+    "gap_full": 189.0000000000006,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 3329,
+    "seen_mean_diff": 0.20714285714285716,
+    "seen_sd": 0.48719470900348105,
+    "z": 5.030734721495479,
+    "items_differ_seen": 39,
+    "seen_wins_of_worse": 34,
+    "seen_wins_of_better": 5
+   },
+   {
+    "i": 63,
+    "j": 29,
+    "gap_full": 131.0000000000009,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 3281,
+    "seen_mean_diff": 0.20714285714285716,
+    "seen_sd": 0.48719470900348105,
+    "z": 5.030734721495479,
+    "items_differ_seen": 39,
+    "seen_wins_of_worse": 34,
+    "seen_wins_of_better": 5
+   },
+   {
+    "i": 79,
+    "j": 29,
+    "gap_full": 180.99999999999977,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 3325,
+    "seen_mean_diff": 0.21428571428571427,
+    "seen_sd": 0.49144793097458284,
+    "z": 5.159168661382932,
+    "items_differ_seen": 40,
+    "seen_wins_of_worse": 35,
+    "seen_wins_of_better": 5
+   },
+   {
+    "i": 85,
+    "j": 29,
+    "gap_full": 150.99999999999983,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 3305,
+    "seen_mean_diff": 0.21428571428571427,
+    "seen_sd": 0.49144793097458284,
+    "z": 5.159168661382932,
+    "items_differ_seen": 40,
+    "seen_wins_of_worse": 35,
+    "seen_wins_of_better": 5
+   }
+  ],
+  "benchmark": "mmlu",
+  "order": 527,
+  "seed": 3691807514,
+  "wrong_looks": 1,
+  "source": "first runs"
+ },
+ {
+  "items_seen": 8,
+  "fraction": 0.009791921664626682,
+  "pairs": [
+   {
+    "i": 345,
+    "j": 323,
+    "gap_full": 16.037361464051735,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 815,
+    "seen_mean_diff": 0.1529496211442165,
+    "seen_sd": 0.07890621238297403,
+    "z": 5.482544961913558,
+    "items_differ_seen": 8,
+    "seen_wins_of_worse": 8,
+    "seen_wins_of_better": 0
+   },
+   {
+    "i": 345,
+    "j": 371,
+    "gap_full": 5.952254411945713,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 815,
+    "seen_mean_diff": 0.14902085910762253,
+    "seen_sd": 0.08052313933032604,
+    "z": 5.234453643491265,
+    "items_differ_seen": 8,
+    "seen_wins_of_worse": 8,
+    "seen_wins_of_better": 0
+   }
+  ],
+  "benchmark": "truthfulqa",
+  "order": 44,
+  "seed": 3319024683,
+  "wrong_looks": 1,
+  "source": "exact rerun (holm395_orders0-999.json)"
+ },
+ {
+  "items_seen": 8,
+  "fraction": 0.009791921664626682,
+  "pairs": [
+   {
+    "i": 135,
+    "j": 108,
+    "gap_full": 3.733874875027527,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 806,
+    "seen_mean_diff": 0.45813860448106425,
+    "seen_sd": 0.2583693706791653,
+    "z": 5.015345481553638,
+    "items_differ_seen": 8,
+    "seen_wins_of_worse": 8,
+    "seen_wins_of_better": 0
+   },
+   {
+    "i": 135,
+    "j": 143,
+    "gap_full": 36.156227969074436,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 798,
+    "seen_mean_diff": 0.3980676908395253,
+    "seen_sd": 0.21755362723572533,
+    "z": 5.175300768649766,
+    "items_differ_seen": 8,
+    "seen_wins_of_worse": 8,
+    "seen_wins_of_better": 0
+   },
+   {
+    "i": 293,
+    "j": 289,
+    "gap_full": 20.0005982279149,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 814,
+    "seen_mean_diff": 0.2351646864981376,
+    "seen_sd": 0.133349287656664,
+    "z": 4.987999484379146,
+    "items_differ_seen": 8,
+    "seen_wins_of_worse": 8,
+    "seen_wins_of_better": 0
+   }
+  ],
+  "benchmark": "truthfulqa",
+  "order": 85,
+  "seed": 3461582799,
+  "wrong_looks": 1,
+  "source": "exact rerun (holm395_orders0-999.json)"
+ },
+ {
+  "items_seen": 8,
+  "fraction": 0.009791921664626682,
+  "pairs": [
+   {
+    "i": 325,
+    "j": 305,
+    "gap_full": 0.4005715854917821,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 816,
+    "seen_mean_diff": 0.4297105911086021,
+    "seen_sd": 0.24371292051563176,
+    "z": 4.987035931910443,
+    "items_differ_seen": 8,
+    "seen_wins_of_worse": 8,
+    "seen_wins_of_better": 0
+   }
+  ],
+  "benchmark": "truthfulqa",
+  "order": 90,
+  "seed": 3780396719,
+  "wrong_looks": 1,
+  "source": "exact rerun (holm395_orders0-999.json)"
+ },
+ {
+  "items_seen": 8,
+  "fraction": 0.009791921664626682,
+  "pairs": [
+   {
+    "i": 332,
+    "j": 220,
+    "gap_full": 26.40051948719572,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 811,
+    "seen_mean_diff": 0.08833756509758181,
+    "seen_sd": 0.04634520956065311,
+    "z": 5.391201542179663,
+    "items_differ_seen": 8,
+    "seen_wins_of_worse": 8,
+    "seen_wins_of_better": 0
+   }
+  ],
+  "benchmark": "truthfulqa",
+  "order": 114,
+  "seed": 2869071097,
+  "wrong_looks": 1,
+  "source": "exact rerun (holm395_orders0-999.json)"
+ },
+ {
+  "items_seen": 40,
+  "fraction": 0.04895960832313342,
+  "pairs": [
+   {
+    "i": 381,
+    "j": 117,
+    "gap_full": 2.250563911922197,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 815,
+    "seen_mean_diff": 0.22144472476749658,
+    "seen_sd": 0.2749137523717973,
+    "z": 5.094468356368982,
+    "items_differ_seen": 40,
+    "seen_wins_of_worse": 28,
+    "seen_wins_of_better": 12
+   }
+  ],
+  "benchmark": "truthfulqa",
+  "order": 126,
+  "seed": 1587205697,
+  "wrong_looks": 2,
+  "source": "exact rerun (holm395_orders0-999.json)"
+ },
+ {
+  "items_seen": 8,
+  "fraction": 0.009791921664626682,
+  "pairs": [
+   {
+    "i": 159,
+    "j": 354,
+    "gap_full": 45.603974008503286,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 816,
+    "seen_mean_diff": 0.4050556668347518,
+    "seen_sd": 0.2253588389787627,
+    "z": 5.083760815858363,
+    "items_differ_seen": 8,
+    "seen_wins_of_worse": 8,
+    "seen_wins_of_better": 0
+   }
+  ],
+  "benchmark": "truthfulqa",
+  "order": 133,
+  "seed": 1501906265,
+  "wrong_looks": 1,
+  "source": "exact rerun (holm395_orders0-999.json)"
+ },
+ {
+  "items_seen": 88,
+  "fraction": 0.10771113831089352,
+  "pairs": [
+   {
+    "i": 97,
+    "j": 337,
+    "gap_full": 6.1834002145049505,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 813,
+    "seen_mean_diff": 0.16881989857875565,
+    "seen_sd": 0.3173759692341955,
+    "z": 4.98988952929378,
+    "items_differ_seen": 88,
+    "seen_wins_of_worse": 56,
+    "seen_wins_of_better": 32
+   }
+  ],
+  "benchmark": "truthfulqa",
+  "order": 144,
+  "seed": 4142040669,
+  "wrong_looks": 1,
+  "source": "exact rerun (holm395_orders0-999.json)"
+ },
+ {
+  "items_seen": 8,
+  "fraction": 0.009791921664626682,
+  "pairs": [
+   {
+    "i": 64,
+    "j": 74,
+    "gap_full": 9.414418825739599,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 807,
+    "seen_mean_diff": 0.4989067945298302,
+    "seen_sd": 0.2830679406267179,
+    "z": 4.985098302704628,
+    "items_differ_seen": 8,
+    "seen_wins_of_worse": 7,
+    "seen_wins_of_better": 1
+   }
+  ],
+  "benchmark": "truthfulqa",
+  "order": 150,
+  "seed": 2096718882,
+  "wrong_looks": 1,
+  "source": "exact rerun (holm395_orders0-999.json)"
+ },
+ {
+  "items_seen": 8,
+  "fraction": 0.009791921664626682,
+  "pairs": [
+   {
+    "i": 104,
+    "j": 151,
+    "gap_full": 4.534958537227565,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 816,
+    "seen_mean_diff": 0.28538814387866296,
+    "seen_sd": 0.15471075704608045,
+    "z": 5.217475388521014,
+    "items_differ_seen": 8,
+    "seen_wins_of_worse": 8,
+    "seen_wins_of_better": 0
+   }
+  ],
+  "benchmark": "truthfulqa",
+  "order": 170,
+  "seed": 575684011,
+  "wrong_looks": 1,
+  "source": "exact rerun (holm395_orders0-999.json)"
+ },
+ {
+  "items_seen": 8,
+  "fraction": 0.009791921664626682,
+  "pairs": [
+   {
+    "i": 19,
+    "j": 300,
+    "gap_full": 14.797859962831541,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 814,
+    "seen_mean_diff": 0.6191045566520188,
+    "seen_sd": 0.33974696276033484,
+    "z": 5.154106770702154,
+    "items_differ_seen": 8,
+    "seen_wins_of_worse": 8,
+    "seen_wins_of_better": 0
+   },
+   {
+    "i": 277,
+    "j": 276,
+    "gap_full": 2.908751013043336,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 816,
+    "seen_mean_diff": 0.554444222478196,
+    "seen_sd": 0.28810934995037585,
+    "z": 5.443089848650346,
+    "items_differ_seen": 8,
+    "seen_wins_of_worse": 8,
+    "seen_wins_of_better": 0
+   }
+  ],
+  "benchmark": "truthfulqa",
+  "order": 171,
+  "seed": 3852415585,
+  "wrong_looks": 1,
+  "source": "exact rerun (holm395_orders0-999.json)"
+ },
+ {
+  "items_seen": 8,
+  "fraction": 0.009791921664626682,
+  "pairs": [
+   {
+    "i": 207,
+    "j": 2,
+    "gap_full": 41.83258155307788,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 811,
+    "seen_mean_diff": 0.5738982409748132,
+    "seen_sd": 0.32234393478779394,
+    "z": 5.035706202090927,
+    "items_differ_seen": 8,
+    "seen_wins_of_worse": 7,
+    "seen_wins_of_better": 1
+   },
+   {
+    "i": 207,
+    "j": 367,
+    "gap_full": 20.079438098320935,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 813,
+    "seen_mean_diff": 0.6852348434840678,
+    "seen_sd": 0.34050598784825226,
+    "z": 5.6919316760893075,
+    "items_differ_seen": 8,
+    "seen_wins_of_worse": 8,
+    "seen_wins_of_better": 0
+   }
+  ],
+  "benchmark": "truthfulqa",
+  "order": 216,
+  "seed": 4262723883,
+  "wrong_looks": 1,
+  "source": "exact rerun (holm395_orders0-999.json)"
+ },
+ {
+  "items_seen": 8,
+  "fraction": 0.009791921664626682,
+  "pairs": [
+   {
+    "i": 277,
+    "j": 17,
+    "gap_full": 50.88357264293709,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 816,
+    "seen_mean_diff": 0.620860923923567,
+    "seen_sd": 0.33862042673748005,
+    "z": 5.18592423628893,
+    "items_differ_seen": 8,
+    "seen_wins_of_worse": 7,
+    "seen_wins_of_better": 1
+   }
+  ],
+  "benchmark": "truthfulqa",
+  "order": 226,
+  "seed": 2771589832,
+  "wrong_looks": 1,
+  "source": "exact rerun (holm395_orders0-999.json)"
+ },
+ {
+  "items_seen": 8,
+  "fraction": 0.009791921664626682,
+  "pairs": [
+   {
+    "i": 73,
+    "j": 375,
+    "gap_full": 20.744550706816888,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 813,
+    "seen_mean_diff": 0.3153920891927555,
+    "seen_sd": 0.17531543715102085,
+    "z": 5.0883342305715775,
+    "items_differ_seen": 8,
+    "seen_wins_of_worse": 8,
+    "seen_wins_of_better": 0
+   },
+   {
+    "i": 87,
+    "j": 375,
+    "gap_full": 28.759012637194363,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 816,
+    "seen_mean_diff": 0.22652976599056274,
+    "seen_sd": 0.10068049571610503,
+    "z": 6.363923122675125,
+    "items_differ_seen": 8,
+    "seen_wins_of_worse": 8,
+    "seen_wins_of_better": 0
+   },
+   {
+    "i": 99,
+    "j": 375,
+    "gap_full": 4.170740845944311,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 816,
+    "seen_mean_diff": 0.30802012619096786,
+    "seen_sd": 0.1646703877976628,
+    "z": 5.2906444901117995,
+    "items_differ_seen": 8,
+    "seen_wins_of_worse": 8,
+    "seen_wins_of_better": 0
+   }
+  ],
+  "benchmark": "truthfulqa",
+  "order": 248,
+  "seed": 851666940,
+  "wrong_looks": 1,
+  "source": "exact rerun (holm395_orders0-999.json)"
+ },
+ {
+  "items_seen": 8,
+  "fraction": 0.009791921664626682,
+  "pairs": [
+   {
+    "i": 323,
+    "j": 224,
+    "gap_full": 0.14913545441382337,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 806,
+    "seen_mean_diff": 0.567058193671528,
+    "seen_sd": 0.32071897134086264,
+    "z": 5.00089773169517,
+    "items_differ_seen": 8,
+    "seen_wins_of_worse": 7,
+    "seen_wins_of_better": 1
+   }
+  ],
+  "benchmark": "truthfulqa",
+  "order": 304,
+  "seed": 2092451335,
+  "wrong_looks": 1,
+  "source": "exact rerun (holm395_orders0-999.json)"
+ },
+ {
+  "items_seen": 8,
+  "fraction": 0.009791921664626682,
+  "pairs": [
+   {
+    "i": 274,
+    "j": 162,
+    "gap_full": 33.91179045364726,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 816,
+    "seen_mean_diff": 0.18045066721970215,
+    "seen_sd": 0.09636257080217628,
+    "z": 5.296574775807319,
+    "items_differ_seen": 8,
+    "seen_wins_of_worse": 8,
+    "seen_wins_of_better": 0
+   }
+  ],
+  "benchmark": "truthfulqa",
+  "order": 356,
+  "seed": 2022946668,
+  "wrong_looks": 1,
+  "source": "exact rerun (holm395_orders0-999.json)"
+ },
+ {
+  "items_seen": 8,
+  "fraction": 0.009791921664626682,
+  "pairs": [
+   {
+    "i": 304,
+    "j": 352,
+    "gap_full": 57.25615812557346,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 816,
+    "seen_mean_diff": 0.12730525294318795,
+    "seen_sd": 0.0693749273674307,
+    "z": 5.190255964379294,
+    "items_differ_seen": 8,
+    "seen_wins_of_worse": 8,
+    "seen_wins_of_better": 0
+   }
+  ],
+  "benchmark": "truthfulqa",
+  "order": 368,
+  "seed": 3979898759,
+  "wrong_looks": 1,
+  "source": "exact rerun (holm395_orders0-999.json)"
+ },
+ {
+  "items_seen": 8,
+  "fraction": 0.009791921664626682,
+  "pairs": [
+   {
+    "i": 18,
+    "j": 367,
+    "gap_full": 21.67096930161584,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 815,
+    "seen_mean_diff": 0.36293161706998944,
+    "seen_sd": 0.19304102411563115,
+    "z": 5.3176553266411855,
+    "items_differ_seen": 8,
+    "seen_wins_of_worse": 7,
+    "seen_wins_of_better": 1
+   },
+   {
+    "i": 87,
+    "j": 367,
+    "gap_full": 36.990742428539754,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 816,
+    "seen_mean_diff": 0.30151577899232507,
+    "seen_sd": 0.1708482110263614,
+    "z": 4.991655474281101,
+    "items_differ_seen": 8,
+    "seen_wins_of_worse": 7,
+    "seen_wins_of_better": 1
+   },
+   {
+    "i": 141,
+    "j": 367,
+    "gap_full": 22.432827847370266,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 816,
+    "seen_mean_diff": 0.27301541762426496,
+    "seen_sd": 0.14507431170123886,
+    "z": 5.322818379263666,
+    "items_differ_seen": 8,
+    "seen_wins_of_worse": 7,
+    "seen_wins_of_better": 1
+   },
+   {
+    "i": 147,
+    "j": 367,
+    "gap_full": 23.298406025754968,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 813,
+    "seen_mean_diff": 0.3229861375875771,
+    "seen_sd": 0.15362720620819123,
+    "z": 5.946490696652395,
+    "items_differ_seen": 8,
+    "seen_wins_of_worse": 7,
+    "seen_wins_of_better": 1
+   },
+   {
+    "i": 264,
+    "j": 367,
+    "gap_full": 14.20658801115154,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 813,
+    "seen_mean_diff": 0.5284493532963097,
+    "seen_sd": 0.2927306110926434,
+    "z": 5.105993115440969,
+    "items_differ_seen": 8,
+    "seen_wins_of_worse": 7,
+    "seen_wins_of_better": 1
+   },
+   {
+    "i": 266,
+    "j": 367,
+    "gap_full": 6.203974630611493,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 813,
+    "seen_mean_diff": 0.3825515457428992,
+    "seen_sd": 0.21661507950799083,
+    "z": 4.9951239362026225,
+    "items_differ_seen": 8,
+    "seen_wins_of_worse": 7,
+    "seen_wins_of_better": 1
+   }
+  ],
+  "benchmark": "truthfulqa",
+  "order": 383,
+  "seed": 933547114,
+  "wrong_looks": 1,
+  "source": "exact rerun (holm395_orders0-999.json)"
+ },
+ {
+  "items_seen": 8,
+  "fraction": 0.009791921664626682,
+  "pairs": [
+   {
+    "i": 271,
+    "j": 47,
+    "gap_full": 110.29515658577309,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 797,
+    "seen_mean_diff": 0.6279592221567327,
+    "seen_sd": 0.34553437844047113,
+    "z": 5.140261021780256,
+    "items_differ_seen": 8,
+    "seen_wins_of_worse": 7,
+    "seen_wins_of_better": 1
+   },
+   {
+    "i": 293,
+    "j": 139,
+    "gap_full": 45.08795192468111,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 814,
+    "seen_mean_diff": 0.28082982159685344,
+    "seen_sd": 0.15202529841623114,
+    "z": 5.224832268820389,
+    "items_differ_seen": 8,
+    "seen_wins_of_worse": 7,
+    "seen_wins_of_better": 1
+   }
+  ],
+  "benchmark": "truthfulqa",
+  "order": 396,
+  "seed": 3513839247,
+  "wrong_looks": 1,
+  "source": "exact rerun (holm395_orders0-999.json)"
+ },
+ {
+  "items_seen": 8,
+  "fraction": 0.009791921664626682,
+  "pairs": [
+   {
+    "i": 220,
+    "j": 376,
+    "gap_full": 46.47869648282756,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 813,
+    "seen_mean_diff": 0.6050848097656853,
+    "seen_sd": 0.32716083697087184,
+    "z": 5.231183244788947,
+    "items_differ_seen": 8,
+    "seen_wins_of_worse": 8,
+    "seen_wins_of_better": 0
+   },
+   {
+    "i": 220,
+    "j": 380,
+    "gap_full": 17.03754024895206,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 813,
+    "seen_mean_diff": 0.5367735307663679,
+    "seen_sd": 0.3034485032590574,
+    "z": 5.003237115884711,
+    "items_differ_seen": 8,
+    "seen_wins_of_worse": 8,
+    "seen_wins_of_better": 0
+   }
+  ],
+  "benchmark": "truthfulqa",
+  "order": 399,
+  "seed": 2512482639,
+  "wrong_looks": 1,
+  "source": "exact rerun (holm395_orders0-999.json)"
+ },
+ {
+  "items_seen": 8,
+  "fraction": 0.009791921664626682,
+  "pairs": [
+   {
+    "i": 258,
+    "j": 248,
+    "gap_full": 4.861359658698357,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 815,
+    "seen_mean_diff": 0.2200486052024644,
+    "seen_sd": 0.11926716355970826,
+    "z": 5.218464371424667,
+    "items_differ_seen": 8,
+    "seen_wins_of_worse": 8,
+    "seen_wins_of_better": 0
+   }
+  ],
+  "benchmark": "truthfulqa",
+  "order": 411,
+  "seed": 914014532,
+  "wrong_looks": 1,
+  "source": "exact rerun (holm395_orders0-999.json)"
+ },
+ {
+  "items_seen": 8,
+  "fraction": 0.009791921664626682,
+  "pairs": [
+   {
+    "i": 302,
+    "j": 6,
+    "gap_full": 0.04933098730725072,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 816,
+    "seen_mean_diff": 0.0944555323876557,
+    "seen_sd": 0.05261825194948198,
+    "z": 5.077336855357428,
+    "items_differ_seen": 8,
+    "seen_wins_of_worse": 8,
+    "seen_wins_of_better": 0
+   }
+  ],
+  "benchmark": "truthfulqa",
+  "order": 460,
+  "seed": 681107303,
+  "wrong_looks": 1,
+  "source": "exact rerun (holm395_orders0-999.json)"
+ },
+ {
+  "items_seen": 8,
+  "fraction": 0.009791921664626682,
+  "pairs": [
+   {
+    "i": 148,
+    "j": 355,
+    "gap_full": 3.3177326895144947,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 813,
+    "seen_mean_diff": 0.3504535872489214,
+    "seen_sd": 0.19756825857059332,
+    "z": 5.017164393263489,
+    "items_differ_seen": 8,
+    "seen_wins_of_worse": 8,
+    "seen_wins_of_better": 0
+   }
+  ],
+  "benchmark": "truthfulqa",
+  "order": 466,
+  "seed": 3046310504,
+  "wrong_looks": 1,
+  "source": "exact rerun (holm395_orders0-999.json)"
+ },
+ {
+  "items_seen": 16,
+  "fraction": 0.019583843329253364,
+  "pairs": [
+   {
+    "i": 207,
+    "j": 169,
+    "gap_full": 2.4646246139938714,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 812,
+    "seen_mean_diff": 0.40498552558128986,
+    "seen_sd": 0.32426616889040905,
+    "z": 4.995717277162654,
+    "items_differ_seen": 15,
+    "seen_wins_of_worse": 13,
+    "seen_wins_of_better": 2
+   }
+  ],
+  "benchmark": "truthfulqa",
+  "order": 485,
+  "seed": 1390432188,
+  "wrong_looks": 1,
+  "source": "exact rerun (holm395_orders0-999.json)"
+ },
+ {
+  "items_seen": 56,
+  "fraction": 0.06854345165238677,
+  "pairs": [
+   {
+    "i": 273,
+    "j": 50,
+    "gap_full": 11.31039325435097,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 813,
+    "seen_mean_diff": 0.23762755384006476,
+    "seen_sd": 0.35560028401198,
+    "z": 5.000675939261885,
+    "items_differ_seen": 55,
+    "seen_wins_of_worse": 34,
+    "seen_wins_of_better": 21
+   }
+  ],
+  "benchmark": "truthfulqa",
+  "order": 492,
+  "seed": 3407984350,
+  "wrong_looks": 1,
+  "source": "exact rerun (holm395_orders0-999.json)"
+ },
+ {
+  "items_seen": 8,
+  "fraction": 0.009791921664626682,
+  "pairs": [
+   {
+    "i": 341,
+    "j": 227,
+    "gap_full": 1.6016415265921238,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 814,
+    "seen_mean_diff": 0.44467648019781336,
+    "seen_sd": 0.2494173514068978,
+    "z": 5.0426925441778785,
+    "items_differ_seen": 8,
+    "seen_wins_of_worse": 8,
+    "seen_wins_of_better": 0
+   }
+  ],
+  "benchmark": "truthfulqa",
+  "order": 533,
+  "seed": 622062991,
+  "wrong_looks": 1,
+  "source": "exact rerun (holm395_orders0-999.json)"
+ },
+ {
+  "items_seen": 8,
+  "fraction": 0.009791921664626682,
+  "pairs": [
+   {
+    "i": 283,
+    "j": 336,
+    "gap_full": 27.469420677148047,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 816,
+    "seen_mean_diff": 0.26146762864664197,
+    "seen_sd": 0.1434056584434406,
+    "z": 5.15699409029179,
+    "items_differ_seen": 8,
+    "seen_wins_of_worse": 7,
+    "seen_wins_of_better": 1
+   }
+  ],
+  "benchmark": "truthfulqa",
+  "order": 537,
+  "seed": 4292127992,
+  "wrong_looks": 1,
+  "source": "exact rerun (holm395_orders0-999.json)"
+ },
+ {
+  "items_seen": 8,
+  "fraction": 0.009791921664626682,
+  "pairs": [
+   {
+    "i": 1,
+    "j": 329,
+    "gap_full": 4.588851658964685,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 816,
+    "seen_mean_diff": 0.12408970616525039,
+    "seen_sd": 0.0644207345604754,
+    "z": 5.448225531953461,
+    "items_differ_seen": 8,
+    "seen_wins_of_worse": 8,
+    "seen_wins_of_better": 0
+   }
+  ],
+  "benchmark": "truthfulqa",
+  "order": 587,
+  "seed": 1812985457,
+  "wrong_looks": 1,
+  "source": "exact rerun (holm395_orders0-999.json)"
+ },
+ {
+  "items_seen": 8,
+  "fraction": 0.009791921664626682,
+  "pairs": [
+   {
+    "i": 255,
+    "j": 18,
+    "gap_full": 33.72888189308218,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 816,
+    "seen_mean_diff": 0.31244102062191814,
+    "seen_sd": 0.17621196045379098,
+    "z": 5.015077610705993,
+    "items_differ_seen": 8,
+    "seen_wins_of_worse": 7,
+    "seen_wins_of_better": 1
+   },
+   {
+    "i": 255,
+    "j": 161,
+    "gap_full": 5.350769991927073,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 816,
+    "seen_mean_diff": 0.26712096165283583,
+    "seen_sd": 0.1496394013209471,
+    "z": 5.049018953949834,
+    "items_differ_seen": 8,
+    "seen_wins_of_worse": 7,
+    "seen_wins_of_better": 1
+   }
+  ],
+  "benchmark": "truthfulqa",
+  "order": 595,
+  "seed": 3496339899,
+  "wrong_looks": 1,
+  "source": "exact rerun (holm395_orders0-999.json)"
+ },
+ {
+  "items_seen": 8,
+  "fraction": 0.009791921664626682,
+  "pairs": [
+   {
+    "i": 251,
+    "j": 232,
+    "gap_full": 45.59254769920144,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 815,
+    "seen_mean_diff": 0.2817999596115655,
+    "seen_sd": 0.14774903344413884,
+    "z": 5.394625135189685,
+    "items_differ_seen": 8,
+    "seen_wins_of_worse": 8,
+    "seen_wins_of_better": 0
+   }
+  ],
+  "benchmark": "truthfulqa",
+  "order": 602,
+  "seed": 311440747,
+  "wrong_looks": 1,
+  "source": "exact rerun (holm395_orders0-999.json)"
+ },
+ {
+  "items_seen": 8,
+  "fraction": 0.009791921664626682,
+  "pairs": [
+   {
+    "i": 322,
+    "j": 376,
+    "gap_full": 16.498000836949323,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 812,
+    "seen_mean_diff": 0.020335700013674796,
+    "seen_sd": 0.01071411138959037,
+    "z": 5.3684382612694055,
+    "items_differ_seen": 8,
+    "seen_wins_of_worse": 8,
+    "seen_wins_of_better": 0
+   }
+  ],
+  "benchmark": "truthfulqa",
+  "order": 643,
+  "seed": 3373435404,
+  "wrong_looks": 1,
+  "source": "exact rerun (holm395_orders0-999.json)"
+ },
+ {
+  "items_seen": 8,
+  "fraction": 0.009791921664626682,
+  "pairs": [
+   {
+    "i": 220,
+    "j": 69,
+    "gap_full": 29.37202465955252,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 800,
+    "seen_mean_diff": 0.5177770010097191,
+    "seen_sd": 0.2838407653261099,
+    "z": 5.159563717153314,
+    "items_differ_seen": 8,
+    "seen_wins_of_worse": 8,
+    "seen_wins_of_better": 0
+   },
+   {
+    "i": 220,
+    "j": 266,
+    "gap_full": 3.619371038360083,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 813,
+    "seen_mean_diff": 0.5251831252899137,
+    "seen_sd": 0.2590126824126504,
+    "z": 5.735017232331549,
+    "items_differ_seen": 8,
+    "seen_wins_of_worse": 8,
+    "seen_wins_of_better": 0
+   },
+   {
+    "i": 236,
+    "j": 146,
+    "gap_full": 21.83954370364793,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 816,
+    "seen_mean_diff": 0.25839861262022623,
+    "seen_sd": 0.14435584081627187,
+    "z": 5.062917030576071,
+    "items_differ_seen": 8,
+    "seen_wins_of_worse": 8,
+    "seen_wins_of_better": 0
+   }
+  ],
+  "benchmark": "truthfulqa",
+  "order": 661,
+  "seed": 2177239898,
+  "wrong_looks": 1,
+  "source": "exact rerun (holm395_orders0-999.json)"
+ },
+ {
+  "items_seen": 8,
+  "fraction": 0.009791921664626682,
+  "pairs": [
+   {
+    "i": 83,
+    "j": 348,
+    "gap_full": 9.81347699735874,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 814,
+    "seen_mean_diff": 0.33097038110281574,
+    "seen_sd": 0.18740520086196052,
+    "z": 4.9951954326407515,
+    "items_differ_seen": 8,
+    "seen_wins_of_worse": 8,
+    "seen_wins_of_better": 0
+   },
+   {
+    "i": 104,
+    "j": 147,
+    "gap_full": 37.31891556774199,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 816,
+    "seen_mean_diff": 0.02835830338881351,
+    "seen_sd": 0.012386882037398121,
+    "z": 6.475349831744262,
+    "items_differ_seen": 8,
+    "seen_wins_of_worse": 8,
+    "seen_wins_of_better": 0
+   }
+  ],
+  "benchmark": "truthfulqa",
+  "order": 684,
+  "seed": 984016729,
+  "wrong_looks": 1,
+  "source": "exact rerun (holm395_orders0-999.json)"
+ },
+ {
+  "items_seen": 8,
+  "fraction": 0.009791921664626682,
+  "pairs": [
+   {
+    "i": 227,
+    "j": 98,
+    "gap_full": 1.4302576278205352,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 814,
+    "seen_mean_diff": 0.45393746597572826,
+    "seen_sd": 0.21405066590890898,
+    "z": 5.9982482944046875,
+    "items_differ_seen": 8,
+    "seen_wins_of_worse": 8,
+    "seen_wins_of_better": 0
+   },
+   {
+    "i": 227,
+    "j": 169,
+    "gap_full": 1.4146045648738583,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 814,
+    "seen_mean_diff": 0.45926254954353296,
+    "seen_sd": 0.21531533727449598,
+    "z": 6.032968523988583,
+    "items_differ_seen": 8,
+    "seen_wins_of_worse": 8,
+    "seen_wins_of_better": 0
+   },
+   {
+    "i": 239,
+    "j": 98,
+    "gap_full": 17.555562417326335,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 815,
+    "seen_mean_diff": 0.43295044517025016,
+    "seen_sd": 0.18534520119333037,
+    "z": 6.606962440387909,
+    "items_differ_seen": 8,
+    "seen_wins_of_worse": 8,
+    "seen_wins_of_better": 0
+   },
+   {
+    "i": 239,
+    "j": 169,
+    "gap_full": 17.539909354379656,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 815,
+    "seen_mean_diff": 0.43827552873805486,
+    "seen_sd": 0.18433436257506958,
+    "z": 6.724901295006011,
+    "items_differ_seen": 8,
+    "seen_wins_of_worse": 8,
+    "seen_wins_of_better": 0
+   },
+   {
+    "i": 243,
+    "j": 98,
+    "gap_full": 14.934253842383288,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 815,
+    "seen_mean_diff": 0.4175521570245888,
+    "seen_sd": 0.21219530385900484,
+    "z": 5.565702093526841,
+    "items_differ_seen": 8,
+    "seen_wins_of_worse": 8,
+    "seen_wins_of_better": 0
+   },
+   {
+    "i": 243,
+    "j": 169,
+    "gap_full": 14.918600779436613,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 813,
+    "seen_mean_diff": 0.4228772405923935,
+    "seen_sd": 0.21390580547015983,
+    "z": 5.591608208577588,
+    "items_differ_seen": 8,
+    "seen_wins_of_worse": 8,
+    "seen_wins_of_better": 0
+   },
+   {
+    "i": 270,
+    "j": 98,
+    "gap_full": 55.230393292508396,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 815,
+    "seen_mean_diff": 0.3042036245565083,
+    "seen_sd": 0.09335608711097317,
+    "z": 9.216515063650306,
+    "items_differ_seen": 8,
+    "seen_wins_of_worse": 8,
+    "seen_wins_of_better": 0
+   },
+   {
+    "i": 270,
+    "j": 169,
+    "gap_full": 55.21474022956172,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 815,
+    "seen_mean_diff": 0.309528708124313,
+    "seen_sd": 0.08965577562012794,
+    "z": 9.764896772025763,
+    "items_differ_seen": 8,
+    "seen_wins_of_worse": 8,
+    "seen_wins_of_better": 0
+   },
+   {
+    "i": 334,
+    "j": 98,
+    "gap_full": 58.683983240513484,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 815,
+    "seen_mean_diff": 0.2845548975269463,
+    "seen_sd": 0.09487927178964736,
+    "z": 8.482809526921422,
+    "items_differ_seen": 8,
+    "seen_wins_of_worse": 8,
+    "seen_wins_of_better": 0
+   },
+   {
+    "i": 334,
+    "j": 169,
+    "gap_full": 58.66833017756681,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 815,
+    "seen_mean_diff": 0.289879981094751,
+    "seen_sd": 0.09083015154315446,
+    "z": 9.026786672922817,
+    "items_differ_seen": 8,
+    "seen_wins_of_worse": 8,
+    "seen_wins_of_better": 0
+   },
+   {
+    "i": 366,
+    "j": 98,
+    "gap_full": 58.683983240513484,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 815,
+    "seen_mean_diff": 0.2845548975269463,
+    "seen_sd": 0.09487927178964736,
+    "z": 8.482809526921422,
+    "items_differ_seen": 8,
+    "seen_wins_of_worse": 8,
+    "seen_wins_of_better": 0
+   },
+   {
+    "i": 366,
+    "j": 169,
+    "gap_full": 58.66833017756681,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 815,
+    "seen_mean_diff": 0.289879981094751,
+    "seen_sd": 0.09083015154315446,
+    "z": 9.026786672922817,
+    "items_differ_seen": 8,
+    "seen_wins_of_worse": 8,
+    "seen_wins_of_better": 0
+   },
+   {
+    "i": 369,
+    "j": 98,
+    "gap_full": 11.0774116209258,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 813,
+    "seen_mean_diff": 0.5884334435208853,
+    "seen_sd": 0.31238686781978575,
+    "z": 5.32782035422317,
+    "items_differ_seen": 8,
+    "seen_wins_of_worse": 8,
+    "seen_wins_of_better": 0
+   },
+   {
+    "i": 369,
+    "j": 169,
+    "gap_full": 11.061758557979124,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 813,
+    "seen_mean_diff": 0.59375852708869,
+    "seen_sd": 0.3117710655091271,
+    "z": 5.386653571666458,
+    "items_differ_seen": 8,
+    "seen_wins_of_worse": 8,
+    "seen_wins_of_better": 0
+   },
+   {
+    "i": 381,
+    "j": 98,
+    "gap_full": 1.3235089524583534,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 813,
+    "seen_mean_diff": 0.36231383187576793,
+    "seen_sd": 0.18114004329152913,
+    "z": 5.657381168330966,
+    "items_differ_seen": 8,
+    "seen_wins_of_worse": 8,
+    "seen_wins_of_better": 0
+   },
+   {
+    "i": 381,
+    "j": 169,
+    "gap_full": 1.3078558895116768,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 813,
+    "seen_mean_diff": 0.36763891544357263,
+    "seen_sd": 0.17907709069920655,
+    "z": 5.806660564412884,
+    "items_differ_seen": 8,
+    "seen_wins_of_worse": 8,
+    "seen_wins_of_better": 0
+   },
+   {
+    "i": 392,
+    "j": 98,
+    "gap_full": 58.683983240513484,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 815,
+    "seen_mean_diff": 0.2845548975269463,
+    "seen_sd": 0.09487927178964736,
+    "z": 8.482809526921422,
+    "items_differ_seen": 8,
+    "seen_wins_of_worse": 8,
+    "seen_wins_of_better": 0
+   },
+   {
+    "i": 392,
+    "j": 169,
+    "gap_full": 58.66833017756681,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 815,
+    "seen_mean_diff": 0.289879981094751,
+    "seen_sd": 0.09083015154315446,
+    "z": 9.026786672922817,
+    "items_differ_seen": 8,
+    "seen_wins_of_worse": 8,
+    "seen_wins_of_better": 0
+   }
+  ],
+  "benchmark": "truthfulqa",
+  "order": 690,
+  "seed": 2947295319,
+  "wrong_looks": 1,
+  "source": "exact rerun (holm395_orders0-999.json)"
+ },
+ {
+  "items_seen": 8,
+  "fraction": 0.009791921664626682,
+  "pairs": [
+   {
+    "i": 360,
+    "j": 291,
+    "gap_full": 18.58723097367703,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 816,
+    "seen_mean_diff": 0.37039545661536977,
+    "seen_sd": 0.19680892658652582,
+    "z": 5.323115036212931,
+    "items_differ_seen": 8,
+    "seen_wins_of_worse": 8,
+    "seen_wins_of_better": 0
+   }
+  ],
+  "benchmark": "truthfulqa",
+  "order": 728,
+  "seed": 1114135895,
+  "wrong_looks": 1,
+  "source": "exact rerun (holm395_orders0-999.json)"
+ },
+ {
+  "items_seen": 8,
+  "fraction": 0.009791921664626682,
+  "pairs": [
+   {
+    "i": 62,
+    "j": 38,
+    "gap_full": 51.65807034305914,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 816,
+    "seen_mean_diff": 0.6318216605255884,
+    "seen_sd": 0.35684608922631467,
+    "z": 5.007933606635057,
+    "items_differ_seen": 8,
+    "seen_wins_of_worse": 7,
+    "seen_wins_of_better": 1
+   }
+  ],
+  "benchmark": "truthfulqa",
+  "order": 731,
+  "seed": 907082798,
+  "wrong_looks": 1,
+  "source": "exact rerun (holm395_orders0-999.json)"
+ },
+ {
+  "items_seen": 8,
+  "fraction": 0.009791921664626682,
+  "pairs": [
+   {
+    "i": 267,
+    "j": 297,
+    "gap_full": 7.091916394173873,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 808,
+    "seen_mean_diff": 0.5076551141683012,
+    "seen_sd": 0.2825052608826812,
+    "z": 5.082615065090889,
+    "items_differ_seen": 8,
+    "seen_wins_of_worse": 8,
+    "seen_wins_of_better": 0
+   },
+   {
+    "i": 348,
+    "j": 190,
+    "gap_full": 26.463623072791084,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 813,
+    "seen_mean_diff": 0.3887837587390095,
+    "seen_sd": 0.20680426093410673,
+    "z": 5.31733013580687,
+    "items_differ_seen": 8,
+    "seen_wins_of_worse": 7,
+    "seen_wins_of_better": 1
+   }
+  ],
+  "benchmark": "truthfulqa",
+  "order": 735,
+  "seed": 1604608746,
+  "wrong_looks": 1,
+  "source": "exact rerun (holm395_orders0-999.json)"
+ },
+ {
+  "items_seen": 8,
+  "fraction": 0.009791921664626682,
+  "pairs": [
+   {
+    "i": 346,
+    "j": 210,
+    "gap_full": 61.60047700799649,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 806,
+    "seen_mean_diff": 0.5216429503634572,
+    "seen_sd": 0.2927327911736772,
+    "z": 5.040190626834378,
+    "items_differ_seen": 8,
+    "seen_wins_of_worse": 7,
+    "seen_wins_of_better": 1
+   }
+  ],
+  "benchmark": "truthfulqa",
+  "order": 744,
+  "seed": 991683748,
+  "wrong_looks": 1,
+  "source": "exact rerun (holm395_orders0-999.json)"
+ },
+ {
+  "items_seen": 8,
+  "fraction": 0.009791921664626682,
+  "pairs": [
+   {
+    "i": 34,
+    "j": 294,
+    "gap_full": 4.717460155578877,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 810,
+    "seen_mean_diff": 0.5391134594392497,
+    "seen_sd": 0.3024146176399272,
+    "z": 5.042226939602826,
+    "items_differ_seen": 8,
+    "seen_wins_of_worse": 8,
+    "seen_wins_of_better": 0
+   }
+  ],
+  "benchmark": "truthfulqa",
+  "order": 761,
+  "seed": 1412507549,
+  "wrong_looks": 1,
+  "source": "exact rerun (holm395_orders0-999.json)"
+ },
+ {
+  "items_seen": 8,
+  "fraction": 0.009791921664626682,
+  "pairs": [
+   {
+    "i": 181,
+    "j": 376,
+    "gap_full": 49.65486902414816,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 814,
+    "seen_mean_diff": 0.45385841373354197,
+    "seen_sd": 0.2482452306044185,
+    "z": 5.171118273139465,
+    "items_differ_seen": 8,
+    "seen_wins_of_worse": 8,
+    "seen_wins_of_better": 0
+   },
+   {
+    "i": 235,
+    "j": 277,
+    "gap_full": 1.6987831354699598,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 816,
+    "seen_mean_diff": 0.4295250833965838,
+    "seen_sd": 0.21255538453004647,
+    "z": 5.715594546446475,
+    "items_differ_seen": 8,
+    "seen_wins_of_worse": 8,
+    "seen_wins_of_better": 0
+   },
+   {
+    "i": 242,
+    "j": 166,
+    "gap_full": 2.316751634373508,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 815,
+    "seen_mean_diff": 0.6353260958094324,
+    "seen_sd": 0.3608551170306274,
+    "z": 4.979764669081797,
+    "items_differ_seen": 8,
+    "seen_wins_of_worse": 7,
+    "seen_wins_of_better": 1
+   },
+   {
+    "i": 242,
+    "j": 277,
+    "gap_full": 4.423928489658999,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 816,
+    "seen_mean_diff": 0.5227914457209408,
+    "seen_sd": 0.21439391502231184,
+    "z": 6.897012471219155,
+    "items_differ_seen": 8,
+    "seen_wins_of_worse": 8,
+    "seen_wins_of_better": 0
+   },
+   {
+    "i": 260,
+    "j": 277,
+    "gap_full": 7.465562307915724,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 816,
+    "seen_mean_diff": 0.46690290654078126,
+    "seen_sd": 0.24772042625514568,
+    "z": 5.33101313220976,
+    "items_differ_seen": 8,
+    "seen_wins_of_worse": 8,
+    "seen_wins_of_better": 0
+   },
+   {
+    "i": 269,
+    "j": 277,
+    "gap_full": 1.7953202581037517,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 816,
+    "seen_mean_diff": 0.4566463497467339,
+    "seen_sd": 0.23798690170490008,
+    "z": 5.427151296089184,
+    "items_differ_seen": 8,
+    "seen_wins_of_worse": 8,
+    "seen_wins_of_better": 0
+   },
+   {
+    "i": 320,
+    "j": 166,
+    "gap_full": 3.1426254172187074,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 816,
+    "seen_mean_diff": 0.5689196297425951,
+    "seen_sd": 0.3119960217816399,
+    "z": 5.157590482646371,
+    "items_differ_seen": 8,
+    "seen_wins_of_worse": 8,
+    "seen_wins_of_better": 0
+   },
+   {
+    "i": 320,
+    "j": 277,
+    "gap_full": 5.249802272504198,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 816,
+    "seen_mean_diff": 0.4563849796541035,
+    "seen_sd": 0.1597513886315227,
+    "z": 8.08037831056255,
+    "items_differ_seen": 8,
+    "seen_wins_of_worse": 8,
+    "seen_wins_of_better": 0
+   },
+   {
+    "i": 331,
+    "j": 166,
+    "gap_full": 11.756958702546523,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 816,
+    "seen_mean_diff": 0.5538794481653895,
+    "seen_sd": 0.25099240587562316,
+    "z": 6.241653605275835,
+    "items_differ_seen": 8,
+    "seen_wins_of_worse": 8,
+    "seen_wins_of_better": 0
+   },
+   {
+    "i": 388,
+    "j": 277,
+    "gap_full": 16.747755129221673,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 816,
+    "seen_mean_diff": 0.36023467825725675,
+    "seen_sd": 0.19324937529322503,
+    "z": 5.272449309142798,
+    "items_differ_seen": 8,
+    "seen_wins_of_worse": 7,
+    "seen_wins_of_better": 1
+   }
+  ],
+  "benchmark": "truthfulqa",
+  "order": 765,
+  "seed": 3033996395,
+  "wrong_looks": 1,
+  "source": "exact rerun (holm395_orders0-999.json)"
+ },
+ {
+  "items_seen": 8,
+  "fraction": 0.009791921664626682,
+  "pairs": [
+   {
+    "i": 270,
+    "j": 225,
+    "gap_full": 5.779890308853921,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 816,
+    "seen_mean_diff": 0.21559729241062087,
+    "seen_sd": 0.12120204907134223,
+    "z": 5.031278221353283,
+    "items_differ_seen": 8,
+    "seen_wins_of_worse": 7,
+    "seen_wins_of_better": 1
+   }
+  ],
+  "benchmark": "truthfulqa",
+  "order": 777,
+  "seed": 2181795687,
+  "wrong_looks": 1,
+  "source": "exact rerun (holm395_orders0-999.json)"
+ },
+ {
+  "items_seen": 8,
+  "fraction": 0.009791921664626682,
+  "pairs": [
+   {
+    "i": 251,
+    "j": 257,
+    "gap_full": 56.01926910728298,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 815,
+    "seen_mean_diff": 0.13813949283212423,
+    "seen_sd": 0.06387204154612298,
+    "z": 6.117191169518497,
+    "items_differ_seen": 8,
+    "seen_wins_of_worse": 8,
+    "seen_wins_of_better": 0
+   }
+  ],
+  "benchmark": "truthfulqa",
+  "order": 784,
+  "seed": 2866568803,
+  "wrong_looks": 1,
+  "source": "exact rerun (holm395_orders0-999.json)"
+ },
+ {
+  "items_seen": 8,
+  "fraction": 0.009791921664626682,
+  "pairs": [
+   {
+    "i": 268,
+    "j": 146,
+    "gap_full": 31.55464594238751,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 814,
+    "seen_mean_diff": 0.21856091937916133,
+    "seen_sd": 0.12121262230827388,
+    "z": 5.099993886851901,
+    "items_differ_seen": 8,
+    "seen_wins_of_worse": 7,
+    "seen_wins_of_better": 1
+   }
+  ],
+  "benchmark": "truthfulqa",
+  "order": 788,
+  "seed": 2570908483,
+  "wrong_looks": 1,
+  "source": "exact rerun (holm395_orders0-999.json)"
+ },
+ {
+  "items_seen": 8,
+  "fraction": 0.009791921664626682,
+  "pairs": [
+   {
+    "i": 89,
+    "j": 213,
+    "gap_full": 4.948489899023984,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 812,
+    "seen_mean_diff": 0.13139290921390057,
+    "seen_sd": 0.055237542298284106,
+    "z": 6.727947206866488,
+    "items_differ_seen": 8,
+    "seen_wins_of_worse": 8,
+    "seen_wins_of_better": 0
+   }
+  ],
+  "benchmark": "truthfulqa",
+  "order": 793,
+  "seed": 2043735804,
+  "wrong_looks": 1,
+  "source": "exact rerun (holm395_orders0-999.json)"
+ },
+ {
+  "items_seen": 8,
+  "fraction": 0.009791921664626682,
+  "pairs": [
+   {
+    "i": 260,
+    "j": 323,
+    "gap_full": 126.71250314841004,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 816,
+    "seen_mean_diff": 0.06248234954546206,
+    "seen_sd": 0.028188851902473024,
+    "z": 6.269385247887777,
+    "items_differ_seen": 8,
+    "seen_wins_of_worse": 7,
+    "seen_wins_of_better": 1
+   }
+  ],
+  "benchmark": "truthfulqa",
+  "order": 852,
+  "seed": 2335963460,
+  "wrong_looks": 1,
+  "source": "exact rerun (holm395_orders0-999.json)"
+ },
+ {
+  "items_seen": 8,
+  "fraction": 0.009791921664626682,
+  "pairs": [
+   {
+    "i": 276,
+    "j": 370,
+    "gap_full": 19.305979120499504,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 816,
+    "seen_mean_diff": 0.13124924357634882,
+    "seen_sd": 0.07186619163189288,
+    "z": 5.1655571584374895,
+    "items_differ_seen": 8,
+    "seen_wins_of_worse": 8,
+    "seen_wins_of_better": 0
+   }
+  ],
+  "benchmark": "truthfulqa",
+  "order": 857,
+  "seed": 1992253075,
+  "wrong_looks": 1,
+  "source": "exact rerun (holm395_orders0-999.json)"
+ },
+ {
+  "items_seen": 8,
+  "fraction": 0.009791921664626682,
+  "pairs": [
+   {
+    "i": 27,
+    "j": 335,
+    "gap_full": 7.639006243929976,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 816,
+    "seen_mean_diff": 0.23372384905815125,
+    "seen_sd": 0.12072539721070202,
+    "z": 5.4758227320005615,
+    "items_differ_seen": 8,
+    "seen_wins_of_worse": 8,
+    "seen_wins_of_better": 0
+   }
+  ],
+  "benchmark": "truthfulqa",
+  "order": 861,
+  "seed": 1167560875,
+  "wrong_looks": 1,
+  "source": "exact rerun (holm395_orders0-999.json)"
+ },
+ {
+  "items_seen": 8,
+  "fraction": 0.009791921664626682,
+  "pairs": [
+   {
+    "i": 311,
+    "j": 277,
+    "gap_full": 7.985068818657991,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 815,
+    "seen_mean_diff": 0.4000197039167688,
+    "seen_sd": 0.22265873841313602,
+    "z": 5.0814380295814106,
+    "items_differ_seen": 8,
+    "seen_wins_of_worse": 8,
+    "seen_wins_of_better": 0
+   }
+  ],
+  "benchmark": "truthfulqa",
+  "order": 874,
+  "seed": 2468801757,
+  "wrong_looks": 1,
+  "source": "exact rerun (holm395_orders0-999.json)"
+ },
+ {
+  "items_seen": 8,
+  "fraction": 0.009791921664626682,
+  "pairs": [
+   {
+    "i": 324,
+    "j": 307,
+    "gap_full": 18.992060150219917,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 815,
+    "seen_mean_diff": 0.2737091090530157,
+    "seen_sd": 0.15508984572185114,
+    "z": 4.991727632021158,
+    "items_differ_seen": 8,
+    "seen_wins_of_worse": 7,
+    "seen_wins_of_better": 1
+   }
+  ],
+  "benchmark": "truthfulqa",
+  "order": 893,
+  "seed": 1448180973,
+  "wrong_looks": 1,
+  "source": "exact rerun (holm395_orders0-999.json)"
+ },
+ {
+  "items_seen": 64,
+  "fraction": 0.07833537331701346,
+  "pairs": [
+   {
+    "i": 190,
+    "j": 346,
+    "gap_full": 0.972844732646711,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 797,
+    "seen_mean_diff": 0.22722834349895926,
+    "seen_sd": 0.365868898607036,
+    "z": 4.968519474906566,
+    "items_differ_seen": 60,
+    "seen_wins_of_worse": 41,
+    "seen_wins_of_better": 19
+   }
+  ],
+  "benchmark": "truthfulqa",
+  "order": 903,
+  "seed": 1016384698,
+  "wrong_looks": 1,
+  "source": "exact rerun (holm395_orders0-999.json)"
+ },
+ {
+  "items_seen": 8,
+  "fraction": 0.009791921664626682,
+  "pairs": [
+   {
+    "i": 331,
+    "j": 183,
+    "gap_full": 3.9872634161432536,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 816,
+    "seen_mean_diff": 0.13012446195352823,
+    "seen_sd": 0.027852412671313956,
+    "z": 13.214207405501577,
+    "items_differ_seen": 8,
+    "seen_wins_of_worse": 8,
+    "seen_wins_of_better": 0
+   }
+  ],
+  "benchmark": "truthfulqa",
+  "order": 908,
+  "seed": 4008415508,
+  "wrong_looks": 1,
+  "source": "exact rerun (holm395_orders0-999.json)"
+ },
+ {
+  "items_seen": 8,
+  "fraction": 0.009791921664626682,
+  "pairs": [
+   {
+    "i": 17,
+    "j": 50,
+    "gap_full": 24.372736927846088,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 814,
+    "seen_mean_diff": 0.5814280722453595,
+    "seen_sd": 0.3131552698137928,
+    "z": 5.251474553200158,
+    "items_differ_seen": 8,
+    "seen_wins_of_worse": 8,
+    "seen_wins_of_better": 0
+   }
+  ],
+  "benchmark": "truthfulqa",
+  "order": 912,
+  "seed": 3195967169,
+  "wrong_looks": 1,
+  "source": "exact rerun (holm395_orders0-999.json)"
+ },
+ {
+  "items_seen": 32,
+  "fraction": 0.03916768665850673,
+  "pairs": [
+   {
+    "i": 323,
+    "j": 192,
+    "gap_full": 0.9321963463402191,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 810,
+    "seen_mean_diff": 0.34766397868748944,
+    "seen_sd": 0.3795811021965619,
+    "z": 5.181196966479451,
+    "items_differ_seen": 32,
+    "seen_wins_of_worse": 25,
+    "seen_wins_of_better": 7
+   }
+  ],
+  "benchmark": "truthfulqa",
+  "order": 936,
+  "seed": 3963942907,
+  "wrong_looks": 3,
+  "source": "exact rerun (holm395_orders0-999.json)"
+ },
+ {
+  "items_seen": 8,
+  "fraction": 0.009791921664626682,
+  "pairs": [
+   {
+    "i": 355,
+    "j": 204,
+    "gap_full": 16.39412149852274,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 816,
+    "seen_mean_diff": 0.5345882485298628,
+    "seen_sd": 0.27874622953505535,
+    "z": 5.424446118013825,
+    "items_differ_seen": 8,
+    "seen_wins_of_worse": 8,
+    "seen_wins_of_better": 0
+   },
+   {
+    "i": 355,
+    "j": 282,
+    "gap_full": 17.32661109648172,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 814,
+    "seen_mean_diff": 0.6137178502111738,
+    "seen_sd": 0.29953648689293694,
+    "z": 5.7951411278274385,
+    "items_differ_seen": 8,
+    "seen_wins_of_worse": 8,
+    "seen_wins_of_better": 0
+   },
+   {
+    "i": 355,
+    "j": 335,
+    "gap_full": 4.311305172573581,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 813,
+    "seen_mean_diff": 0.6118098857850782,
+    "seen_sd": 0.2906490121406356,
+    "z": 5.9537779378554045,
+    "items_differ_seen": 8,
+    "seen_wins_of_worse": 8,
+    "seen_wins_of_better": 0
+   }
+  ],
+  "benchmark": "truthfulqa",
+  "order": 959,
+  "seed": 3831346835,
+  "wrong_looks": 1,
+  "source": "exact rerun (holm395_orders0-999.json)"
+ },
+ {
+  "items_seen": 8,
+  "fraction": 0.009791921664626682,
+  "pairs": [
+   {
+    "i": 163,
+    "j": 285,
+    "gap_full": 5.429536618635106,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 813,
+    "seen_mean_diff": 0.44255033694605883,
+    "seen_sd": 0.22776464113248626,
+    "z": 5.495679096017792,
+    "items_differ_seen": 8,
+    "seen_wins_of_worse": 8,
+    "seen_wins_of_better": 0
+   },
+   {
+    "i": 163,
+    "j": 394,
+    "gap_full": 4.271359216966056,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 810,
+    "seen_mean_diff": 0.4832398653284071,
+    "seen_sd": 0.23991158982099103,
+    "z": 5.6971351149538085,
+    "items_differ_seen": 8,
+    "seen_wins_of_worse": 8,
+    "seen_wins_of_better": 0
+   },
+   {
+    "i": 165,
+    "j": 285,
+    "gap_full": 26.89582172307455,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 815,
+    "seen_mean_diff": 0.3955912800860264,
+    "seen_sd": 0.2211283973508576,
+    "z": 5.059961182339954,
+    "items_differ_seen": 8,
+    "seen_wins_of_worse": 8,
+    "seen_wins_of_better": 0
+   },
+   {
+    "i": 165,
+    "j": 394,
+    "gap_full": 25.737644321405504,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 814,
+    "seen_mean_diff": 0.4362808084683747,
+    "seen_sd": 0.21227116490988898,
+    "z": 5.813264713565725,
+    "items_differ_seen": 8,
+    "seen_wins_of_worse": 8,
+    "seen_wins_of_better": 0
+   }
+  ],
+  "benchmark": "truthfulqa",
+  "order": 965,
+  "seed": 349854982,
+  "wrong_looks": 1,
+  "source": "exact rerun (holm395_orders0-999.json)"
+ },
+ {
+  "items_seen": 8,
+  "fraction": 0.009791921664626682,
+  "pairs": [
+   {
+    "i": 83,
+    "j": 178,
+    "gap_full": 30.515388072132257,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 815,
+    "seen_mean_diff": 0.44866217730251634,
+    "seen_sd": 0.2526711170327277,
+    "z": 5.0223717179583725,
+    "items_differ_seen": 8,
+    "seen_wins_of_worse": 7,
+    "seen_wins_of_better": 1
+   },
+   {
+    "i": 83,
+    "j": 367,
+    "gap_full": 5.301762786181825,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 814,
+    "seen_mean_diff": 0.5552343770026837,
+    "seen_sd": 0.277348074133127,
+    "z": 5.66234316720776,
+    "items_differ_seen": 8,
+    "seen_wins_of_worse": 7,
+    "seen_wins_of_better": 1
+   }
+  ],
+  "benchmark": "truthfulqa",
+  "order": 969,
+  "seed": 2317716041,
+  "wrong_looks": 1,
+  "source": "exact rerun (holm395_orders0-999.json)"
+ },
+ {
+  "items_seen": 8,
+  "fraction": 0.009791921664626682,
+  "pairs": [
+   {
+    "i": 62,
+    "j": 164,
+    "gap_full": 38.02665734754808,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 816,
+    "seen_mean_diff": 0.47528627534609313,
+    "seen_sd": 0.2228361789595313,
+    "z": 6.03273938498386,
+    "items_differ_seen": 8,
+    "seen_wins_of_worse": 8,
+    "seen_wins_of_better": 0
+   },
+   {
+    "i": 62,
+    "j": 336,
+    "gap_full": 40.43802559813011,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 816,
+    "seen_mean_diff": 0.37744931572342466,
+    "seen_sd": 0.2063865352779053,
+    "z": 5.1727593632573265,
+    "items_differ_seen": 8,
+    "seen_wins_of_worse": 8,
+    "seen_wins_of_better": 0
+   },
+   {
+    "i": 87,
+    "j": 336,
+    "gap_full": 16.527997873129383,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 816,
+    "seen_mean_diff": 0.3190904853236134,
+    "seen_sd": 0.17592701151275042,
+    "z": 5.130105810228711,
+    "items_differ_seen": 8,
+    "seen_wins_of_worse": 8,
+    "seen_wins_of_better": 0
+   },
+   {
+    "i": 140,
+    "j": 287,
+    "gap_full": 1.194598817722744,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 815,
+    "seen_mean_diff": 0.25138904570826526,
+    "seen_sd": 0.13322096229446612,
+    "z": 5.337265123289483,
+    "items_differ_seen": 8,
+    "seen_wins_of_worse": 8,
+    "seen_wins_of_better": 0
+   },
+   {
+    "i": 276,
+    "j": 335,
+    "gap_full": 18.309499490204608,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 816,
+    "seen_mean_diff": 0.247473334078677,
+    "seen_sd": 0.12434894279565821,
+    "z": 5.629000737945523,
+    "items_differ_seen": 8,
+    "seen_wins_of_worse": 8,
+    "seen_wins_of_better": 0
+   }
+  ],
+  "benchmark": "truthfulqa",
+  "order": 994,
+  "seed": 2593564013,
+  "wrong_looks": 1,
+  "source": "exact rerun (holm395_orders0-999.json)"
+ },
+ {
+  "items_seen": 8,
+  "fraction": 0.009791921664626682,
+  "pairs": [
+   {
+    "i": 275,
+    "j": 364,
+    "gap_full": 27.833624400203316,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 814,
+    "seen_mean_diff": 0.16931454942096025,
+    "seen_sd": 0.0902238417399255,
+    "z": 5.3078416409806355,
+    "items_differ_seen": 8,
+    "seen_wins_of_worse": 8,
+    "seen_wins_of_better": 0
+   }
+  ],
+  "benchmark": "truthfulqa",
+  "order": 996,
+  "seed": 1774369341,
+  "wrong_looks": 1,
+  "source": "exact rerun (holm395_orders0-999.json)"
+ },
+ {
+  "items_seen": 156,
+  "fraction": 0.12312549329123915,
+  "pairs": [
+   {
+    "i": 93,
+    "j": 266,
+    "gap_full": 10.000000000000096,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 172,
+    "seen_mean_diff": 0.15384615384615385,
+    "seen_sd": 0.361963215986165,
+    "z": 5.308655025693249,
+    "items_differ_seen": 24,
+    "seen_wins_of_worse": 24,
+    "seen_wins_of_better": 0
+   }
+  ],
+  "benchmark": "winogrande",
+  "order": 337,
+  "seed": 2529971964,
+  "wrong_looks": 1,
+  "source": "first runs"
+ },
+ {
+  "items_seen": 13,
+  "fraction": 0.010260457774269928,
+  "pairs": [
+   {
+    "i": 349,
+    "j": 204,
+    "gap_full": 2.9999999999999725,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 299,
+    "seen_mean_diff": 0.6923076923076923,
+    "seen_sd": 0.48038446141526137,
+    "z": 5.196152422706632,
+    "items_differ_seen": 9,
+    "seen_wins_of_worse": 9,
+    "seen_wins_of_better": 0
+   }
+  ],
+  "benchmark": "winogrande",
+  "order": 646,
+  "seed": 293442976,
+  "wrong_looks": 1,
+  "source": "first runs"
+ },
+ {
+  "items_seen": 13,
+  "fraction": 0.010260457774269928,
+  "pairs": [
+   {
+    "i": 287,
+    "j": 120,
+    "gap_full": 17.000000000000078,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 311,
+    "seen_mean_diff": 0.6923076923076923,
+    "seen_sd": 0.48038446141526137,
+    "z": 5.196152422706632,
+    "items_differ_seen": 9,
+    "seen_wins_of_worse": 9,
+    "seen_wins_of_better": 0
+   }
+  ],
+  "benchmark": "winogrande",
+  "order": 741,
+  "seed": 1739906228,
+  "wrong_looks": 1,
+  "source": "first runs"
+ },
+ {
+  "items_seen": 13,
+  "fraction": 0.010260457774269928,
+  "pairs": [
+   {
+    "i": 2,
+    "j": 80,
+    "gap_full": 31.000000000000043,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 281,
+    "seen_mean_diff": 0.6923076923076923,
+    "seen_sd": 0.48038446141526137,
+    "z": 5.196152422706632,
+    "items_differ_seen": 9,
+    "seen_wins_of_worse": 9,
+    "seen_wins_of_better": 0
+   },
+   {
+    "i": 2,
+    "j": 288,
+    "gap_full": 3.000000000000113,
+    "tied": false,
+    "identical": false,
+    "items_differ_full": 311,
+    "seen_mean_diff": 0.6923076923076923,
+    "seen_sd": 0.48038446141526137,
+    "z": 5.196152422706632,
+    "items_differ_seen": 9,
+    "seen_wins_of_worse": 9,
+    "seen_wins_of_better": 0
+   }
+  ],
+  "benchmark": "winogrande",
+  "order": 832,
+  "seed": 2945723109,
+  "wrong_looks": 1,
+  "source": "first runs"
+ }
+]

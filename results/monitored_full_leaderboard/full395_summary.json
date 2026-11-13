@@ -1,0 +1,605 @@
+{
+ "benchmarks": {
+  "mmlu": {
+   "n_items": 14042,
+   "true_pairs": 77802,
+   "n_looks": [
+    106
+   ],
+   "holm_orders": 1000,
+   "holm_wrong": 4,
+   "holm_wrong_first_look": 1,
+   "holm_first_wrong": [
+    0.009970089730807577,
+    0.019940179461615155,
+    0.02991026919242273,
+    0.049850448654037885
+   ],
+   "holm_wrong_looks": [
+    1,
+    2,
+    2,
+    3
+   ],
+   "holm_half_only_wrong": 0,
+   "holm_source": "first runs",
+   "full_orders": 50,
+   "ours_wrong": 0,
+   "ebonf_wrong": 0,
+   "retire_wrong": {
+    "shortcut": 0,
+    "bonferroni": 0
+   },
+   "retire": {
+    "shortcut": {
+     "cost_pct": 6.209023562224718,
+     "goal": 1.0,
+     "settled_frac": 1.0,
+     "items_seen": 14042.0
+    },
+    "bonferroni": {
+     "cost_pct": 6.209023562224718,
+     "goal": 1.0,
+     "settled_frac": 1.0,
+     "items_seen": 14042.0
+    },
+    "diff_pct": {
+     "mean": 0.0,
+     "halfwidth": 0.0,
+     "max_abs": 0.0,
+     "ebonf_higher": 0,
+     "equal": 50,
+     "ebonf_lower": 0
+    }
+   },
+   "table1": {
+    "shortcut": {
+     "half_pct": 85.52605331482481,
+     "end_pct": 99.56129662476542,
+     "tiers_half": 21.22,
+     "width_half": 57.083645569620245
+    },
+    "bonferroni": {
+     "half_pct": 85.52602760854478,
+     "end_pct": 99.56129662476542,
+     "tiers_half": 21.22,
+     "width_half": 57.08374683544304
+    },
+    "diff_pairs": {
+     "half_mean": -0.02,
+     "half_min": -1,
+     "end_mean": 0.0,
+     "end_min": 0,
+     "max_positive": 0
+    }
+   }
+  },
+  "hellaswag": {
+   "n_items": 10042,
+   "true_pairs": 77747,
+   "n_looks": [
+    106
+   ],
+   "holm_orders": 1000,
+   "holm_wrong": 0,
+   "holm_wrong_first_look": 0,
+   "holm_first_wrong": [],
+   "holm_wrong_looks": [],
+   "holm_half_only_wrong": 0,
+   "holm_source": "first runs",
+   "full_orders": 50,
+   "ours_wrong": 0,
+   "ebonf_wrong": 0,
+   "retire_wrong": {
+    "shortcut": 0,
+    "bonferroni": 0
+   },
+   "retire": {
+    "shortcut": {
+     "cost_pct": 15.229150479379014,
+     "goal": 1.0,
+     "settled_frac": 1.0,
+     "items_seen": 10039.48
+    },
+    "bonferroni": {
+     "cost_pct": 15.22955384851976,
+     "goal": 1.0,
+     "settled_frac": 1.0,
+     "items_seen": 10039.48
+    },
+    "diff_pct": {
+     "mean": 0.00040336914074806885,
+     "halfwidth": 0.00029479082259518843,
+     "max_abs": 0.005042114259349972,
+     "ebonf_higher": 7,
+     "equal": 43,
+     "ebonf_lower": 0
+    }
+   },
+   "table1": {
+    "shortcut": {
+     "half_pct": 77.39879352257965,
+     "end_pct": 99.1812159954725,
+     "tiers_half": 20.38,
+     "width_half": 89.31524050632912
+    },
+    "bonferroni": {
+     "half_pct": 77.39876779811439,
+     "end_pct": 99.1812159954725,
+     "tiers_half": 20.38,
+     "width_half": 89.3153417721519
+    },
+    "diff_pairs": {
+     "half_mean": -0.02,
+     "half_min": -1,
+     "end_mean": 0.0,
+     "end_min": 0,
+     "max_positive": 0
+    }
+   }
+  },
+  "gsm8k": {
+   "n_items": 1319,
+   "true_pairs": 77644,
+   "n_looks": [
+    107
+   ],
+   "holm_orders": 1000,
+   "holm_wrong": 18,
+   "holm_wrong_first_look": 11,
+   "holm_first_wrong": [
+    0.009855951478392721,
+    0.009855951478392721,
+    0.009855951478392721,
+    0.009855951478392721,
+    0.009855951478392721,
+    0.009855951478392721,
+    0.009855951478392721,
+    0.009855951478392721,
+    0.009855951478392721,
+    0.009855951478392721,
+    0.009855951478392721,
+    0.019711902956785442,
+    0.019711902956785442,
+    0.019711902956785442,
+    0.029567854435178165,
+    0.039423805913570885,
+    0.04927975739196361,
+    0.04927975739196361
+   ],
+   "holm_wrong_looks": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    2,
+    2,
+    2,
+    3
+   ],
+   "holm_half_only_wrong": 0,
+   "holm_source": "first runs",
+   "full_orders": 50,
+   "ours_wrong": 0,
+   "ebonf_wrong": 0,
+   "retire_wrong": {
+    "shortcut": 0,
+    "bonferroni": 0
+   },
+   "retire": {
+    "shortcut": {
+     "cost_pct": 16.725117801172733,
+     "goal": 0.0,
+     "settled_frac": 0.992253164556962,
+     "items_seen": 1319.0
+    },
+    "bonferroni": {
+     "cost_pct": 16.725566933138836,
+     "goal": 0.0,
+     "settled_frac": 0.992253164556962,
+     "items_seen": 1319.0
+    },
+    "diff_pct": {
+     "mean": 0.00044913196610409047,
+     "halfwidth": 0.0002684124592769172,
+     "max_abs": 0.0024951775894699324,
+     "ebonf_higher": 9,
+     "equal": 41,
+     "ebonf_lower": 0
+    }
+   },
+   "table1": {
+    "shortcut": {
+     "half_pct": 78.0572871052496,
+     "end_pct": 98.86134150739271,
+     "tiers_half": 10.78,
+     "width_half": 87.13012658227849
+    },
+    "bonferroni": {
+     "half_pct": 78.05720982947813,
+     "end_pct": 98.86134150739271,
+     "tiers_half": 10.78,
+     "width_half": 87.13043037974683
+    },
+    "diff_pairs": {
+     "half_mean": -0.06,
+     "half_min": -1,
+     "end_mean": 0.0,
+     "end_min": 0,
+     "max_positive": 0
+    }
+   }
+  },
+  "winogrande": {
+   "n_items": 1267,
+   "true_pairs": 77379,
+   "n_looks": [
+    103
+   ],
+   "holm_orders": 1000,
+   "holm_wrong": 4,
+   "holm_wrong_first_look": 3,
+   "holm_first_wrong": [
+    0.010260457774269928,
+    0.010260457774269928,
+    0.010260457774269928,
+    0.12312549329123915
+   ],
+   "holm_wrong_looks": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "holm_half_only_wrong": 0,
+   "holm_source": "first runs",
+   "full_orders": 50,
+   "ours_wrong": 0,
+   "ebonf_wrong": 0,
+   "retire_wrong": {
+    "shortcut": 0,
+    "bonferroni": 0
+   },
+   "retire": {
+    "shortcut": {
+     "cost_pct": 47.31188794421188,
+     "goal": 0.02,
+     "settled_frac": 0.9947341772151899,
+     "items_seen": 1267.0
+    },
+    "bonferroni": {
+     "cost_pct": 47.312615267800936,
+     "goal": 0.02,
+     "settled_frac": 0.9947341772151899,
+     "items_seen": 1267.0
+    },
+    "diff_pct": {
+     "mean": 0.000727323589061939,
+     "halfwidth": 0.0004373628430940769,
+     "max_abs": 0.007792752739952391,
+     "ebonf_higher": 11,
+     "equal": 39,
+     "ebonf_lower": 0
+    }
+   },
+   "table1": {
+    "shortcut": {
+     "half_pct": 25.678491580402948,
+     "end_pct": 95.52126545962082,
+     "tiers_half": 4.22,
+     "width_half": 293.39362025316456
+    },
+    "bonferroni": {
+     "half_pct": 25.67766448261156,
+     "end_pct": 95.52121376600887,
+     "tiers_half": 4.22,
+     "width_half": 293.3968607594936
+    },
+    "diff_pairs": {
+     "half_mean": -0.64,
+     "half_min": -3,
+     "end_mean": -0.04,
+     "end_min": -1,
+     "max_positive": 0
+    }
+   }
+  },
+  "arc": {
+   "n_items": 1172,
+   "true_pairs": 77525,
+   "n_looks": [
+    103
+   ],
+   "holm_orders": 1000,
+   "holm_wrong": 5,
+   "holm_wrong_first_look": 1,
+   "holm_first_wrong": [
+    0.010238907849829351,
+    0.040955631399317405,
+    0.09982935153583618,
+    0.09982935153583618,
+    0.16382252559726962
+   ],
+   "holm_wrong_looks": [
+    1,
+    1,
+    1,
+    2,
+    3
+   ],
+   "holm_half_only_wrong": 0,
+   "holm_source": "first runs",
+   "full_orders": 50,
+   "ours_wrong": 0,
+   "ebonf_wrong": 0,
+   "retire_wrong": {
+    "shortcut": 0,
+    "bonferroni": 0
+   },
+   "retire": {
+    "shortcut": {
+     "cost_pct": 36.93380567676157,
+     "goal": 0.02,
+     "settled_frac": 0.9950379746835444,
+     "items_seen": 1172.0
+    },
+    "bonferroni": {
+     "cost_pct": 36.93499805590358,
+     "goal": 0.02,
+     "settled_frac": 0.9950379746835444,
+     "items_seen": 1172.0
+    },
+    "diff_pct": {
+     "mean": 0.0011923791420051088,
+     "halfwidth": 0.0005844348069960576,
+     "max_abs": 0.010368514278304986,
+     "ebonf_higher": 17,
+     "equal": 33,
+     "ebonf_lower": 0
+    }
+   },
+   "table1": {
+    "shortcut": {
+     "half_pct": 47.7426120606256,
+     "end_pct": 97.01495001612383,
+     "tiers_half": 6.84,
+     "width_half": 206.59513924050637
+    },
+    "bonferroni": {
+     "half_pct": 47.742276684940336,
+     "end_pct": 97.01495001612383,
+     "tiers_half": 6.84,
+     "width_half": 206.59645569620253
+    },
+    "diff_pairs": {
+     "half_mean": -0.26,
+     "half_min": -2,
+     "end_mean": 0.0,
+     "end_min": 0,
+     "max_positive": 0
+    }
+   }
+  },
+  "truthfulqa": {
+   "n_items": 817,
+   "true_pairs": 77811,
+   "n_looks": [
+    107
+   ],
+   "holm_orders": 1000,
+   "holm_wrong": 57,
+   "holm_wrong_first_look": 51,
+   "holm_first_wrong": [
+    0.009791921664626682,
+    0.009791921664626682,
+    0.009791921664626682,
+    0.009791921664626682,
+    0.009791921664626682,
+    0.009791921664626682,
+    0.009791921664626682,
+    0.009791921664626682,
+    0.009791921664626682,
+    0.009791921664626682,
+    0.009791921664626682,
+    0.009791921664626682,
+    0.009791921664626682,
+    0.009791921664626682,
+    0.009791921664626682,
+    0.009791921664626682,
+    0.009791921664626682,
+    0.009791921664626682,
+    0.009791921664626682,
+    0.009791921664626682,
+    0.009791921664626682,
+    0.009791921664626682,
+    0.009791921664626682,
+    0.009791921664626682,
+    0.009791921664626682,
+    0.009791921664626682,
+    0.009791921664626682,
+    0.009791921664626682,
+    0.009791921664626682,
+    0.009791921664626682,
+    0.009791921664626682,
+    0.009791921664626682,
+    0.009791921664626682,
+    0.009791921664626682,
+    0.009791921664626682,
+    0.009791921664626682,
+    0.009791921664626682,
+    0.009791921664626682,
+    0.009791921664626682,
+    0.009791921664626682,
+    0.009791921664626682,
+    0.009791921664626682,
+    0.009791921664626682,
+    0.009791921664626682,
+    0.009791921664626682,
+    0.009791921664626682,
+    0.009791921664626682,
+    0.009791921664626682,
+    0.009791921664626682,
+    0.009791921664626682,
+    0.009791921664626682,
+    0.019583843329253364,
+    0.03916768665850673,
+    0.04895960832313342,
+    0.06854345165238677,
+    0.07833537331701346,
+    0.10771113831089352
+   ],
+   "holm_wrong_looks": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    2,
+    3
+   ],
+   "holm_half_only_wrong": 0,
+   "holm_source": "exact rerun (holm395_orders0-999.json)",
+   "full_orders": 50,
+   "ours_wrong": 0,
+   "ebonf_wrong": 0,
+   "retire_wrong": {
+    "shortcut": 0,
+    "bonferroni": 0
+   },
+   "retire": {
+    "shortcut": {
+     "cost_pct": 27.274753265265016,
+     "goal": 0.0,
+     "settled_frac": 0.9772151898734178,
+     "items_seen": 817.0
+    },
+    "bonferroni": {
+     "cost_pct": 27.277876764327665,
+     "goal": 0.0,
+     "settled_frac": 0.9772151898734178,
+     "items_seen": 817.0
+    },
+    "diff_pct": {
+     "mean": 0.0031234990626406757,
+     "halfwidth": 0.0007705568951796149,
+     "max_abs": 0.009915870040128283,
+     "ebonf_higher": 34,
+     "equal": 16,
+     "ebonf_lower": 0
+    }
+   },
+   "table1": {
+    "shortcut": {
+     "half_pct": 54.53987225456555,
+     "end_pct": 96.96217758414622,
+     "tiers_half": 6.12,
+     "width_half": 179.1239493670886
+    },
+    "bonferroni": {
+     "half_pct": 54.538946935523256,
+     "end_pct": 96.96217758414622,
+     "tiers_half": 6.12,
+     "width_half": 179.12759493670885
+    },
+    "diff_pairs": {
+     "half_mean": -0.72,
+     "half_min": -3,
+     "end_mean": 0.0,
+     "end_min": 0,
+     "max_positive": 0
+    }
+   },
+   "holm_first_runs": {
+    "orders": 1000,
+    "wrong": 61,
+    "half_only_wrong": 0
+   }
+  }
+ },
+ "checks": {
+  "mmlu": [
+   "e-Bonferroni, orders 0-9 vs full_leaderboard_orders10: match",
+   "ours, Holm checkpoints and top-3 retirement, orders 0-49 vs full_leaderboard_orders50: match"
+  ],
+  "hellaswag": [
+   "e-Bonferroni, orders 0-9 vs full_leaderboard_orders10: match",
+   "ours, Holm checkpoints and top-3 retirement, orders 0-49 vs full_leaderboard_orders50: match"
+  ],
+  "gsm8k": [
+   "e-Bonferroni, orders 0-9 vs full_leaderboard_orders10: match",
+   "ours, Holm checkpoints and top-3 retirement, orders 0-49 vs full_leaderboard_orders50: match"
+  ],
+  "winogrande": [
+   "e-Bonferroni, orders 0-9 vs full_leaderboard_orders10: match",
+   "ours, Holm checkpoints and top-3 retirement, orders 0-49 vs full_leaderboard_orders50: match"
+  ],
+  "arc": [
+   "e-Bonferroni, orders 0-9 vs full_leaderboard_orders10: match",
+   "ours, Holm checkpoints and top-3 retirement, orders 0-49 vs full_leaderboard_orders50: match"
+  ],
+  "truthfulqa": [
+   "e-Bonferroni, orders 0-9 vs full_leaderboard_orders10: match",
+   "ours, Holm checkpoints and top-3 retirement, orders 0-49 vs full_leaderboard_orders50: match"
+  ]
+ }
+}
